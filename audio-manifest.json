@@ -1,0 +1,6386 @@
+{
+  "generatedAt": "2026-10-20T07:41:44.279Z",
+  "clipCount": 1276,
+  "clips": [
+    {
+      "id": "hsk1-l01-d01-01",
+      "text": "AI小语，你好！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-d01-02",
+      "text": "王老师，你好！",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l01-d02-01",
+      "text": "大家好！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-d02-02",
+      "text": "老师，您好！",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l01-d02-03",
+      "text": "你们好！",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l01-d02-04",
+      "text": "你好，小语！",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l01-d03-01",
+      "text": "谢谢！",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l01-d03-02",
+      "text": "不客气！",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l01-d03-03",
+      "text": "同学们，再见！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-d03-04",
+      "text": "老师，再见！",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l01-d04-01",
+      "text": "妈种麻，我放马。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l01-d04-02",
+      "text": "马吃麻，妈骂马。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l01-v01",
+      "text": "你好",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v01-e01",
+      "text": "你好，王老师！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v01-e02",
+      "text": "同学，你好！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v02",
+      "text": "王老师",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v03",
+      "text": "请问",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v04",
+      "text": "大家",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v04-e01",
+      "text": "大家好！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v04-e02",
+      "text": "谢谢大家！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v05",
+      "text": "好",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v05-e01",
+      "text": "他学习很好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v05-e02",
+      "text": "我中文不好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v06",
+      "text": "学生",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v06-e01",
+      "text": "他是李老师的学生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v06-e02",
+      "text": "你们学校有多少学生？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v07",
+      "text": "们",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v07-e01",
+      "text": "你们好吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v07-e02",
+      "text": "他们正在上课。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v08",
+      "text": "老师",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v08-e01",
+      "text": "他是老师。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v08-e02",
+      "text": "她是我的中文老师。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v09",
+      "text": "您",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v09-e01",
+      "text": "您好！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v09-e02",
+      "text": "您去哪儿？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v09-e03",
+      "text": "老师，您好！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v10",
+      "text": "你们",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v10-e01",
+      "text": "谢谢你们。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v10-e02",
+      "text": "你们是哪里人？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v11",
+      "text": "谢谢",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v11-e01",
+      "text": "谢谢你！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v12",
+      "text": "不客气",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v12-e01",
+      "text": "谢谢！不客气！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v13",
+      "text": "同学",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v13-e01",
+      "text": "同学们好！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v13-e02",
+      "text": "我和他是同学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v14",
+      "text": "再见",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v14-e01",
+      "text": "再见，明天见！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l01-v14-e02",
+      "text": "我下班了，再见。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-d01-01",
+      "text": "请问，你叫什么名字？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-d01-02",
+      "text": "我叫陈天中。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-d02-01",
+      "text": "你好，安妮！",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l02-d02-02",
+      "text": "你好，陈天中！我不是安妮，我是白家月。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l02-d02-03",
+      "text": "对不起！",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l02-d02-04",
+      "text": "没关系！",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l02-d03-01",
+      "text": "你好！我叫李文。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l02-d03-02",
+      "text": "你好！我叫白家月。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-d03-03",
+      "text": "很高兴认识你。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l02-d03-04",
+      "text": "认识你我也很高兴。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l02-d04-01",
+      "text": "七加一，再减一，加完减完等于几？",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l02-d04-02",
+      "text": "加完减完还是七。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l02-s01",
+      "text": "你叫什么名字？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-s02",
+      "text": "我叫白家月。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v01",
+      "text": "请问",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v01-e01",
+      "text": "请问超市在哪儿？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v01-e02",
+      "text": "请问，您是王老师吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v02",
+      "text": "你",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v02-e01",
+      "text": "你好!",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v02-e02",
+      "text": "你是谁？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v03",
+      "text": "叫",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v03-e01",
+      "text": "她的名字叫什么？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v03-e02",
+      "text": "我的猫叫Coco。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v04",
+      "text": "什么",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v04-e01",
+      "text": "这是什么？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v04-e02",
+      "text": "他什么时候来？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v05",
+      "text": "名字",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v05-e01",
+      "text": "这个名字真好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v05-e02",
+      "text": "你的猫叫什么名字？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v06",
+      "text": "我",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v06-e01",
+      "text": "我是学生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v06-e02",
+      "text": "我也去。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v07",
+      "text": "不",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v07-e01",
+      "text": "我不是白家月。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v07-e02",
+      "text": "这个名字不好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v08",
+      "text": "是",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v08-e01",
+      "text": "她是谁？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v09",
+      "text": "对不起",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v09-e01",
+      "text": "对不起！没关系！/没事！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v10",
+      "text": "没关系",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v11",
+      "text": "没事",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v12",
+      "text": "很",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v12-e01",
+      "text": "我很好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v12-e02",
+      "text": "我们很高兴。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v13",
+      "text": "高兴",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v13-e01",
+      "text": "很高兴认识你。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v13-e02",
+      "text": "你为什么不高兴？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v14",
+      "text": "认识",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v14-e01",
+      "text": "很高兴认识你！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v14-e02",
+      "text": "你认识他吗？我不认识他。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v15",
+      "text": "也",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v15-e01",
+      "text": "我也很高兴。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l02-v15-e02",
+      "text": "你也认识她？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-d01-01",
+      "text": "我是中国人。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l03-d01-02",
+      "text": "我是法国人。我的中文老师也是中国人。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l03-d02-01",
+      "text": "这是谁？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-d02-02",
+      "text": "这是我女朋友。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l03-d02-03",
+      "text": "你女朋友是哪国人？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-d02-04",
+      "text": "她也是泰国人。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l03-d03-01",
+      "text": "喂，一飞！",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l03-d03-02",
+      "text": "姐姐！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-d03-03",
+      "text": "你工作还忙吗？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l03-d03-04",
+      "text": "对，还很忙。你也很忙吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-d03-05",
+      "text": "我不太忙。我们很想你。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l03-d03-06",
+      "text": "我也想你们。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-d04-01",
+      "text": "四是四，十是十。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l03-d04-02",
+      "text": "十四是十四，四十是四十。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l03-g02-e01",
+      "text": "白家月的中文老师",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-g02-e02",
+      "text": "你的名字",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-g02-e03",
+      "text": "我老师",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-g02-e04",
+      "text": "我妈妈",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-s01",
+      "text": "我是法国人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-s02",
+      "text": "她是中文老师。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-s03",
+      "text": "我老师不是法国人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-s04",
+      "text": "你也很忙吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-s05",
+      "text": "你是他的中文老师吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-s06",
+      "text": "你有姐姐吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v01",
+      "text": "人",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v01-e01",
+      "text": "他是一个好人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v01-e02",
+      "text": "你认识这个人吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v02",
+      "text": "的",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v02-e01",
+      "text": "王老师是他的老师。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v02-e02",
+      "text": "你的名字很好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v03",
+      "text": "中国",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v03-e01",
+      "text": "我是中国人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v03-e02",
+      "text": "他在中国学习。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v04",
+      "text": "法国",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v04-e01",
+      "text": "我认识一个法国人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v04-e02",
+      "text": "我是法国学生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v05",
+      "text": "中文",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v05-e01",
+      "text": "他中文很好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v05-e02",
+      "text": "同学们一起学中文。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v06",
+      "text": "她",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v06-e01",
+      "text": "你认识她吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v06-e02",
+      "text": "她是英国人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v07",
+      "text": "这",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v07-e01",
+      "text": "这是谁？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v07-e02",
+      "text": "这个人是我的同学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v08",
+      "text": "谁",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v08-e02",
+      "text": "谁认识法国人？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v09",
+      "text": "女朋友",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v09-e01",
+      "text": "她是谁的女朋友？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v09-e02",
+      "text": "他的女朋友很漂亮。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v10",
+      "text": "哪",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v10-e01",
+      "text": "他是哪国人？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v10-e02",
+      "text": "哪个人是你女朋友？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v11",
+      "text": "国",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v11-e01",
+      "text": "你是哪国人？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v11-e02",
+      "text": "两国学生是朋友。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v12",
+      "text": "泰国",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v12-e01",
+      "text": "我想去泰国。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v12-e02",
+      "text": "我的女朋友是泰国人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v13",
+      "text": "喂",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v13-e01",
+      "text": "喂，请问是王老师吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v13-e02",
+      "text": "喂！你叫什么名字？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v14",
+      "text": "姐姐",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v14-e01",
+      "text": "她姐姐是我同学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v14-e02",
+      "text": "他们没有姐姐。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v15",
+      "text": "工作",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v15-e01",
+      "text": "你喜欢什么工作？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v15-e02",
+      "text": "她的工作很好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v16",
+      "text": "还",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v16-e01",
+      "text": "你还忙吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v16-e02",
+      "text": "她还在泰国吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v17",
+      "text": "忙",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v17-e01",
+      "text": "他的工作很忙。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v17-e02",
+      "text": "我今天不忙。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v18",
+      "text": "吗",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v18-e01",
+      "text": "你有工作吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v18-e02",
+      "text": "你认识中国人吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v19",
+      "text": "对",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v19-e01",
+      "text": "他是中国人吗？对，他是中国人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v20",
+      "text": "太",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v20-e01",
+      "text": "他太忙了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v20-e02",
+      "text": "太好了！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v21",
+      "text": "我们",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v21-e01",
+      "text": "我们是同学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v21-e02",
+      "text": "我们一起去上学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v22",
+      "text": "想",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v22-e01",
+      "text": "我想你了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l03-v22-e02",
+      "text": "他很想她。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-d01-01",
+      "text": "一飞忙吗？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l04-d01-02",
+      "text": "她很忙。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l04-d01-03",
+      "text": "她有多少个学生？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l04-d01-04",
+      "text": "她有二十个学生。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l04-d02-01",
+      "text": "我有两个哥哥，你呢？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-d02-02",
+      "text": "我没有哥哥。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-d02-03",
+      "text": "你家有几口人？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-d02-04",
+      "text": "我家有四口人，爸爸、妈妈、妹妹和我。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l04-d03-01",
+      "text": "这是您儿子吗？",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l04-d03-02",
+      "text": "是的。我有两个孩子，一个儿子，一个女儿。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l04-d03-03",
+      "text": "您儿子几岁？",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l04-d03-04",
+      "text": "他今年五岁。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l04-d03-05",
+      "text": "您女儿多大？",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l04-d03-06",
+      "text": "她今年十二。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l04-g03-e01",
+      "text": "四口",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-g03-e02",
+      "text": "四口人",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-g03-e03",
+      "text": "两个",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-g03-e04",
+      "text": "两个学生",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-s01",
+      "text": "她有二十个学生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-s02",
+      "text": "她有一个姐姐。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-s03",
+      "text": "我没有姐姐。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-s04",
+      "text": "我叫白家月，你呢？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-s05",
+      "text": "我是中国人，你呢？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v01",
+      "text": "有",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v01-e01",
+      "text": "他有女朋友。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v01-e02",
+      "text": "你有法国同学吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v02",
+      "text": "多少",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v02-e01",
+      "text": "你还有多少钱？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v02-e02",
+      "text": "你们学校有多少学生？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v03",
+      "text": "个",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v03-e01",
+      "text": "我有一个姐姐。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v03-e02",
+      "text": "他是一个学生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v04",
+      "text": "哥哥",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v04-e01",
+      "text": "他是王老师的哥哥。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v04-e02",
+      "text": "她哥哥很好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v05",
+      "text": "呢",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v05-e01",
+      "text": "我叫陈天中，你呢？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v05-e02",
+      "text": "我有三个泰国同学，你呢？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v06",
+      "text": "没有",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v06-e01",
+      "text": "他还没有女朋友。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v07",
+      "text": "家",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v07-e01",
+      "text": "我家有三口人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v07-e02",
+      "text": "她家没有狗。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v08",
+      "text": "几",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v08-e01",
+      "text": "他有几个哥哥？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v09",
+      "text": "口",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v09-e01",
+      "text": "我家有五口人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v10",
+      "text": "爸爸",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v10-e01",
+      "text": "他是白家月的爸爸。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v10-e02",
+      "text": "我爸爸的工作很忙。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v11",
+      "text": "妈妈",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v11-e01",
+      "text": "他妈妈在法国。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v11-e02",
+      "text": "我很想妈妈。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v12",
+      "text": "妹妹",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v12-e01",
+      "text": "她是我的妹妹。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v12-e02",
+      "text": "他没有妹妹。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v13",
+      "text": "和",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v13-e01",
+      "text": "我和她是同学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v13-e02",
+      "text": "哥哥和妹妹一起学中文。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v14",
+      "text": "儿子",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v14-e01",
+      "text": "他是李老师的儿子。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v14-e02",
+      "text": "他是家里的第一个儿子。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v15",
+      "text": "孩子",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v15-e01",
+      "text": "我们都是她的孩子。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v15-e02",
+      "text": "他还是一个孩子。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v16",
+      "text": "女儿",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v16-e01",
+      "text": "她喜欢女儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v16-e02",
+      "text": "她是家里的第二个女儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v17",
+      "text": "岁",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v17-e01",
+      "text": "你几岁了？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v17-e02",
+      "text": "我十岁了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v18",
+      "text": "他",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v18-e01",
+      "text": "他是你哥哥吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v18-e02",
+      "text": "他是我同学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v19",
+      "text": "今年",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v19-e01",
+      "text": "今年是2026年。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v19-e02",
+      "text": "今年他还在中国。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v20",
+      "text": "多",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v20-e01",
+      "text": "你儿子多大？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v20-e02",
+      "text": "这件衣服很贵。多贵？500块！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v21",
+      "text": "大",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v21-e01",
+      "text": "她才两岁大。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l04-v21-e02",
+      "text": "他姐姐今年多大？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-d01-01",
+      "text": "今天几号？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-d01-02",
+      "text": "今天9月8号。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-d01-03",
+      "text": "星期几？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l05-d01-04",
+      "text": "星期日。今天我休息。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l05-d02-01",
+      "text": "你会做饭吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-d02-02",
+      "text": "我会做。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l05-d02-03",
+      "text": "你会做什么？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l05-d02-04",
+      "text": "我会做面条儿、饺子，也会做一些菜。星期天我也做饭。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l05-d03-01",
+      "text": "同乐，下班吗？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l05-d03-02",
+      "text": "下班。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l05-d03-03",
+      "text": "这是你的新电脑吗？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l05-d03-04",
+      "text": "是的，是我的新电脑。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l05-d03-05",
+      "text": "真好看！",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l05-d03-06",
+      "text": "我也很喜欢它。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l05-s01",
+      "text": "今天5月1号。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-s02",
+      "text": "我妹妹12岁。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-s03",
+      "text": "我会做面条儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-s04",
+      "text": "我不会做菜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v01",
+      "text": "今天",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v01-e01",
+      "text": "我今天很高兴。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v01-e02",
+      "text": "今天他来找我。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v02",
+      "text": "号",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v02-e01",
+      "text": "我们3月1号上课。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v02-e02",
+      "text": "你几号上班？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v03",
+      "text": "月",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v03-e01",
+      "text": "今天是2026年3月6日。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v03-e02",
+      "text": "我工作了三个月。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v04",
+      "text": "日",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v04-e01",
+      "text": "明天是9月7日。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v05",
+      "text": "星期",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v05-e01",
+      "text": "今天星期几？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v05-e02",
+      "text": "她要去美国两个星期。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v06",
+      "text": "星期日",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v06-e01",
+      "text": "星期天我不上学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v06-e02",
+      "text": "星期天我和妹妹在家里玩。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v07",
+      "text": "星期天",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v08",
+      "text": "休息",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v08-e01",
+      "text": "星期天我休息。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v08-e02",
+      "text": "他想好好休息一下。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v09",
+      "text": "会",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v09-e01",
+      "text": "我会说中文。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v09-e02",
+      "text": "他会写字。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v10",
+      "text": "做饭",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v10-e01",
+      "text": "我们都会做饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v10-e02",
+      "text": "我喜欢做饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v11",
+      "text": "做",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v11-e01",
+      "text": "我做了三个菜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v11-e02",
+      "text": "今天做什么吃？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v12",
+      "text": "面条儿",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v12-e01",
+      "text": "我喜欢吃面条儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v12-e02",
+      "text": "妈妈今天做面条儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v13",
+      "text": "饺子",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v13-e01",
+      "text": "饺子很好吃。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v13-e02",
+      "text": "很多中国人喜欢吃饺子。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v14",
+      "text": "一些",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v14-e01",
+      "text": "今天做的一些菜我很喜欢吃。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v14-e02",
+      "text": "一些人喜欢饺子也喜欢面条儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v15",
+      "text": "菜",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v15-e01",
+      "text": "她想学做菜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v15-e02",
+      "text": "我爸爸喜欢吃我妈妈做的菜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v16",
+      "text": "下班",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v16-e01",
+      "text": "下班了我可以休息。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v16-e02",
+      "text": "她六点下班。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v17",
+      "text": "新",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v17-e01",
+      "text": "我买了一件新衣服。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v17-e02",
+      "text": "明天是新的一天。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v18",
+      "text": "电脑",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v18-e01",
+      "text": "我想要一个新电脑。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v18-e02",
+      "text": "这个电脑非常贵。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v19",
+      "text": "真",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v19-e01",
+      "text": "这个菜真好吃！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v19-e02",
+      "text": "那个同学真漂亮！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v20",
+      "text": "好看",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v20-e01",
+      "text": "这件新衣服真好看！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v20-e02",
+      "text": "这本书很好看。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v21",
+      "text": "喜欢",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v21-e01",
+      "text": "他很喜欢李老师。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v21-e02",
+      "text": "我喜欢玩电脑。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v22",
+      "text": "它",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v22-e01",
+      "text": "你的猫喜欢吃什么？它喜欢吃鱼。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l05-v22-e02",
+      "text": "它是一只漂亮的小狗。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-d01-01",
+      "text": "家月，你的手机号是多少？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l06-d01-02",
+      "text": "我的手机号是+33 601493190。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l06-d01-03",
+      "text": "我的手机号是+86 13552721160。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l06-d01-04",
+      "text": "好的。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l06-d02-01",
+      "text": "家月，明天你去哪儿？",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l06-d02-02",
+      "text": "我想去超市买东西。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-d02-03",
+      "text": "你去超市买什么？",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l06-d02-04",
+      "text": "我想买些牛奶。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l06-d03-01",
+      "text": "星期天我们去哪儿吃晚饭？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l06-d03-02",
+      "text": "我还想去西安饭店。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l06-d03-03",
+      "text": "那边的包子非常好吃，我想吃包子。",
+      "voice": "girl"
+    },
+    {
+      "id": "hsk1-l06-d03-04",
+      "text": "妈妈，我想吃米饭，不想吃包子。",
+      "voice": "boy"
+    },
+    {
+      "id": "hsk1-l06-d03-05",
+      "text": "好的。我们怎么去？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l06-d03-06",
+      "text": "坐出租车去。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l06-s01",
+      "text": "我想去超市。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-s02",
+      "text": "我哥哥不想休息。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-s03",
+      "text": "我们坐出租车去西安饭店。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-s04",
+      "text": "我们怎么去？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-s05",
+      "text": "她怎么去超市？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v01",
+      "text": "手机",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v01-e01",
+      "text": "我喜欢我的新手机。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v01-e02",
+      "text": "这个手机很好看。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v02",
+      "text": "电话",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v02-e01",
+      "text": "他正在打电话呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v02-e02",
+      "text": "我们在电话里说吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v03",
+      "text": "号",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v03-e01",
+      "text": "你知道他的电话号吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v03-e02",
+      "text": "我的手机号是+86 13552721160。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v04",
+      "text": "明天",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v04-e01",
+      "text": "明天我休息，不工作。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v04-e02",
+      "text": "你明天去哪儿？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v05",
+      "text": "去",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v05-e01",
+      "text": "你明天去公司吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v05-e02",
+      "text": "我去学校。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v06",
+      "text": "哪儿",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v06-e01",
+      "text": "你们去哪儿玩？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v06-e02",
+      "text": "你家在哪儿？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v07",
+      "text": "想",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v07-e01",
+      "text": "我想看电影。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v07-e02",
+      "text": "你想吃面条儿吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v08",
+      "text": "超市",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v08-e01",
+      "text": "妈妈去超市买菜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v08-e02",
+      "text": "超市里有很多东西。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v09",
+      "text": "买",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v09-e01",
+      "text": "我买了一个新手机。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v09-e02",
+      "text": "妹妹在买衣服。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v10",
+      "text": "东西",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v10-e01",
+      "text": "这是什么东西？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v10-e02",
+      "text": "我去超市买东西。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v11",
+      "text": "些",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v11-e01",
+      "text": "你吃些苹果吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v11-e02",
+      "text": "面条儿里放些菜吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v12",
+      "text": "牛奶",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v12-e01",
+      "text": "牛奶很好喝。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v12-e02",
+      "text": "我妹妹爱喝牛奶。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v13",
+      "text": "吃",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v13-e01",
+      "text": "姐姐在吃饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v13-e02",
+      "text": "我喜欢吃水果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v14",
+      "text": "晚饭",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v14-e01",
+      "text": "我们家六点吃晚饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v14-e02",
+      "text": "晚饭你想吃什么？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v15",
+      "text": "那边",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v15-e01",
+      "text": "看那边！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v15-e02",
+      "text": "那边有很多人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v16",
+      "text": "包子",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v16-e01",
+      "text": "晚饭我想吃包子。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v16-e02",
+      "text": "早上我吃了两个包子。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v17",
+      "text": "非常",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v17-e01",
+      "text": "我爸爸做饭非常好吃。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v17-e02",
+      "text": "这本书非常好看。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v18",
+      "text": "好吃",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v18-e01",
+      "text": "法国菜很好吃。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v18-e02",
+      "text": "学校的饭不好吃。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v19",
+      "text": "米饭",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v19-e01",
+      "text": "我喜欢吃米饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v19-e02",
+      "text": "你做米饭了吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v20",
+      "text": "怎么",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v20-e01",
+      "text": "你知道这个菜怎么做吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v20-e02",
+      "text": "请问，怎么去这家电影院？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v21",
+      "text": "坐",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v21-e01",
+      "text": "我坐车去。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v21-e02",
+      "text": "你们可以坐火车。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v22",
+      "text": "出租车",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v22-e01",
+      "text": "我现在叫出租车。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v22-e02",
+      "text": "他开了两年出租车。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l06-v23",
+      "text": "西安饭店",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-d01-01",
+      "text": "现在几点？",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l07-d01-02",
+      "text": "早上八点四十。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-d01-03",
+      "text": "我上午十点十分有课。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-d01-04",
+      "text": "好的，我们下午两点见吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-d02-01",
+      "text": "下午我想去电影院看电影，你去吗？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l07-d02-02",
+      "text": "我不想去，下午还有事。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l07-d02-03",
+      "text": "好的。明天呢？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l07-d02-04",
+      "text": "我明天下午两点还上课呢，四点半下课。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l07-d03-01",
+      "text": "喂，你在哪儿呢？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l07-d03-02",
+      "text": "我在家里呢。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l07-d03-03",
+      "text": "我晚上六点半下班。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-d03-04",
+      "text": "我八点去医院上班。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l07-d03-05",
+      "text": "好的，你去店里买些菜吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-d03-06",
+      "text": "好，我十分钟后去。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l07-s01",
+      "text": "我不想去。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-s02",
+      "text": "妹妹很高兴。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-s03",
+      "text": "她上午十点半上课。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-s04",
+      "text": "我明天下午两点还上课呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-s05",
+      "text": "妹妹会做两个菜呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-s06",
+      "text": "李文晚上还有事呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v01",
+      "text": "现在",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v01-e01",
+      "text": "现在我要去看书了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v01-e02",
+      "text": "你现在去学校吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v02",
+      "text": "点",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v02-e01",
+      "text": "现在几点？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v02-e02",
+      "text": "我家七点吃晚饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v03",
+      "text": "早上",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v03-e01",
+      "text": "早上好！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v03-e02",
+      "text": "我早上坐出租车去上班。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v04",
+      "text": "上午",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v04-e01",
+      "text": "上午我不休息。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v04-e02",
+      "text": "他上午打了一个电话。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v05",
+      "text": "分",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v05-e01",
+      "text": "现在是3点10分。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v06",
+      "text": "课",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v06-e01",
+      "text": "我今天有很多课。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v06-e02",
+      "text": "今天我们学第三课。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v07",
+      "text": "下午",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v07-e01",
+      "text": "下午4点爸爸回家了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v07-e02",
+      "text": "我们今天下午不上课。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v08",
+      "text": "见",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v08-e01",
+      "text": "明天见！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v08-e02",
+      "text": "我们下午三点在家家超市见。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v09",
+      "text": "吧",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v09-e01",
+      "text": "我们去那家饭店吃饭吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v09-e02",
+      "text": "你早点儿休息吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v09-e03",
+      "text": "我们现在走吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v10",
+      "text": "电影院",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v10-e01",
+      "text": "电影院人很多。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v10-e02",
+      "text": "我和妈妈去电影院看电影。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v11",
+      "text": "看",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v11-e01",
+      "text": "今年我看了很多书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v11-e02",
+      "text": "爸爸在看电视。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v12",
+      "text": "电影",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v12-e01",
+      "text": "这个电影很好看。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v12-e02",
+      "text": "她喜欢看中国电影。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v13",
+      "text": "事",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v13-e01",
+      "text": "我这个星期事太多了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v13-e02",
+      "text": "他有很多事要忙。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v14",
+      "text": "上课",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v14-e01",
+      "text": "同学们在上课。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v14-e02",
+      "text": "我病了，不能去上课了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v15",
+      "text": "呢",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v15-e01",
+      "text": "我在吃饭呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v15-e02",
+      "text": "外边下雨呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v16",
+      "text": "半",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v16-e01",
+      "text": "我吃了半个苹果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v16-e02",
+      "text": "她半年没回家了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v17",
+      "text": "下课",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v17-e01",
+      "text": "下课了，我要去吃饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v17-e02",
+      "text": "下课后我要和朋友看电影。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v18",
+      "text": "在",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v18-e01",
+      "text": "我在学校呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v18-e02",
+      "text": "我的手机在房间里。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v18-e03",
+      "text": "你现在在家吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v19",
+      "text": "家",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v19-e01",
+      "text": "我星期五回家。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v19-e02",
+      "text": "您家真漂亮。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v20",
+      "text": "里",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v20-e01",
+      "text": "学校里有很多学生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v20-e02",
+      "text": "小猫在房间里边呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v21",
+      "text": "晚上",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v21-e01",
+      "text": "晚上好！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v21-e02",
+      "text": "晚上大家都在家里看电视。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v22",
+      "text": "医院",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v22-e01",
+      "text": "他生病去医院了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v22-e02",
+      "text": "我爸爸在医院工作。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v23",
+      "text": "上班",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v23-e01",
+      "text": "爸爸妈妈上班，我上学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v23-e02",
+      "text": "我生病了，没去上班。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v24",
+      "text": "店",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v24-e01",
+      "text": "你去菜店买些菜吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v24-e02",
+      "text": "这家店卖电脑和手机。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v25",
+      "text": "菜",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v25-e01",
+      "text": "你吃点儿菜吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v25-e02",
+      "text": "我明天早上去店里买菜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v26",
+      "text": "分钟",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v26-e01",
+      "text": "我还有十分钟能到。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v26-e02",
+      "text": "弟弟看了十分钟电视。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v27",
+      "text": "后",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v27-e01",
+      "text": "我20分钟后到。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l07-v27-e02",
+      "text": "我坐在他后边。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-d01-01",
+      "text": "房间外有一只小猫。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l08-d01-02",
+      "text": "我没看见，它在哪儿呢？",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l08-d01-03",
+      "text": "它在桌子下呢。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l08-d01-04",
+      "text": "这只小猫真漂亮！",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l08-d02-01",
+      "text": "我们在哪儿见呢？",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l08-d02-02",
+      "text": "在学校书店前见吧。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l08-d02-03",
+      "text": "好的。下午两点你能到吗？",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l08-d02-04",
+      "text": "我能到。我在学校吃午饭。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l08-d03-01",
+      "text": "小胡，还没吃饭呢？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l08-d03-02",
+      "text": "没吃呢。",
+      "voice": "male3"
+    },
+    {
+      "id": "hsk1-l08-d03-03",
+      "text": "大医院病人多，医生非常忙。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l08-d03-04",
+      "text": "是的。我爸爸也在医院工作，他也非常忙。",
+      "voice": "male3"
+    },
+    {
+      "id": "hsk1-l08-d03-05",
+      "text": "你家有两个医生？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l08-d03-06",
+      "text": "对。",
+      "voice": "male3"
+    },
+    {
+      "id": "hsk1-l08-s01",
+      "text": "房间里有一只小猫。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-s02",
+      "text": "我们去书店外吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-s03",
+      "text": "小雪的手机在桌子上呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-s04",
+      "text": "我在学校吃午饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-s05",
+      "text": "他爸爸在医院工作。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-s06",
+      "text": "你在哪儿买菜？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-s07",
+      "text": "下午两点你能到吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-s08",
+      "text": "爸爸能去。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-s09",
+      "text": "我不能去学校吃午饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v01",
+      "text": "房间",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v01-e01",
+      "text": "我家有三个房间。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v01-e02",
+      "text": "我的房间很漂亮。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v02",
+      "text": "外",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v02-e01",
+      "text": "我在房间外，她在房间里。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v02-e02",
+      "text": "学校外有一家商店。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v03",
+      "text": "只",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v03-e01",
+      "text": "我有一只猫。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v03-e02",
+      "text": "他有只狗。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v04",
+      "text": "小",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v04-e01",
+      "text": "我家有只小猫。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v04-e02",
+      "text": "我有一个小妹妹。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v05",
+      "text": "猫",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v05-e01",
+      "text": "我很喜欢我的小猫。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v05-e02",
+      "text": "猫白天喜欢睡觉，晚上喜欢玩。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v06",
+      "text": "没",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v06-e01",
+      "text": "我还没吃饭呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v06-e02",
+      "text": "他没买菜，我现在去买。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v07",
+      "text": "看见",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v07-e01",
+      "text": "我看见小猫了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v07-e02",
+      "text": "他没看见我。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v08",
+      "text": "桌子",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v08-e01",
+      "text": "桌子上有很多菜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v08-e02",
+      "text": "小猫在桌子下睡觉。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v09",
+      "text": "下",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v09-e01",
+      "text": "车下有一只小猫。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v09-e02",
+      "text": "你的书在桌子下呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v10",
+      "text": "漂亮",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v10-e01",
+      "text": "我的小猫很漂亮。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v10-e02",
+      "text": "你觉得这件衣服漂亮吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v11",
+      "text": "在",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v11-e01",
+      "text": "你在哪儿吃饭呢？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v11-e02",
+      "text": "我在商店买衣服呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v12",
+      "text": "学校",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v12-e01",
+      "text": "学校里有老师和同学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v12-e02",
+      "text": "我很喜欢我们学校。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v13",
+      "text": "书店",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v13-e01",
+      "text": "我要去书店买书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v13-e02",
+      "text": "学校里有一家书店。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v14",
+      "text": "前",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v14-e01",
+      "text": "他坐在我的前边。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v14-e02",
+      "text": "电脑前的手机是谁的？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v15",
+      "text": "能",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v15-e01",
+      "text": "我能做很多菜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v15-e02",
+      "text": "她能说汉语，她妹妹不能。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v16",
+      "text": "到",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v16-e01",
+      "text": "喂，我到了，你在哪儿呢？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v16-e02",
+      "text": "你两点前能到公司吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v17",
+      "text": "午饭",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v17-e01",
+      "text": "我在家里吃午饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v17-e02",
+      "text": "今天的午饭是面条儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v18",
+      "text": "饭",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v18-e01",
+      "text": "吃饭的时候不要说话。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v18-e02",
+      "text": "今天你做饭，好吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v19",
+      "text": "大",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v19-e01",
+      "text": "我家很大。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v19-e02",
+      "text": "你的房间大不大？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v19-e03",
+      "text": "雨不大。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v20",
+      "text": "病人",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v20-e01",
+      "text": "医院里有很多病人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v20-e02",
+      "text": "你是病人，要好好休息。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v21",
+      "text": "多",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v21-e01",
+      "text": "她认识的朋友很多。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v21-e02",
+      "text": "妈妈买的东西太多了！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v22",
+      "text": "医生",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v22-e01",
+      "text": "生病了要去看医生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v22-e02",
+      "text": "医生在医院看病。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v22-e03",
+      "text": "你问问医生，我的病怎么样了？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v23",
+      "text": "工作",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v23-e01",
+      "text": "老师在学校工作。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v23-e02",
+      "text": "白天，人们都在工作。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l08-v24",
+      "text": "胡医生",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-d01-01",
+      "text": "学校前边有一家电影院。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-d01-02",
+      "text": "对。我们晚上去那个电影院看电影吧。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l09-d01-03",
+      "text": "好！我们七点在电影院外边见，好吗？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l09-d01-04",
+      "text": "好的，晚上七点见！",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l09-d02-01",
+      "text": "椅子上有一本中文书，那是谁的书？",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l09-d02-02",
+      "text": "是我的书，谢谢。这是我的第二本中文书。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l09-d02-03",
+      "text": "不客气。你明天上午在哪儿？",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l09-d02-04",
+      "text": "我明天上午在学校学习。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l09-d03-01",
+      "text": "明天星期六，你做什么？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l09-d03-02",
+      "text": "我白天在家里读书，晚上和朋友们去外边唱歌。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l09-d03-03",
+      "text": "你唱歌很好听。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l09-d03-04",
+      "text": "谢谢！您星期六做什么？",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l09-d03-05",
+      "text": "我在家里做饭、看电视，和孩子们、小狗玩。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l09-d03-06",
+      "text": "我也有一只小狗。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l09-s01",
+      "text": "电影院前边是一家超市。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-s02",
+      "text": "电影院前边不是超市。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-s03",
+      "text": "桌子上没有小猫。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-s04",
+      "text": "我们七点在电影院外边见。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-s05",
+      "text": "安妮下午在家里学中文。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-s06",
+      "text": "陈天中明天中午在学校吃午饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-s07",
+      "text": "第一，第二，第三",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-s08",
+      "text": "第一个，第二个，第一本",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-s09",
+      "text": "第一个学生，第一本书",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v01",
+      "text": "前边",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v01-e01",
+      "text": "我在他们前边。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v01-e02",
+      "text": "超市前边是一家书店。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v02",
+      "text": "边",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v02-e01",
+      "text": "你后边是谁？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v02-e02",
+      "text": "桌子有四条边。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v03",
+      "text": "家",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v03-e01",
+      "text": "那是一家新书店。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v03-e02",
+      "text": "你想去哪家店？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v04",
+      "text": "那个",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v04-e01",
+      "text": "那个人我认识。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v04-e02",
+      "text": "我觉得那个菜非常好吃。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v05",
+      "text": "外边",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v05-e01",
+      "text": "外边在下雨。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v05-e02",
+      "text": "你学了30分钟了，看看外边吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v06",
+      "text": "椅子",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v06-e01",
+      "text": "小猫在椅子上睡觉。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v06-e02",
+      "text": "椅子下边有一本书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v07",
+      "text": "上",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v07-e01",
+      "text": "书上的这些字，你认识哪个？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v07-e02",
+      "text": "桌子上面有什么？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v08",
+      "text": "本",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v08-e01",
+      "text": "今天发了七本书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v08-e02",
+      "text": "我喜欢读这本书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v09",
+      "text": "书",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v09-e01",
+      "text": "人要多看书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v09-e02",
+      "text": "我上午在家读书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v10",
+      "text": "那",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v10-e01",
+      "text": "那是什么？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v10-e02",
+      "text": "那只小狗真好看！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v11",
+      "text": "第",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v11-e01",
+      "text": "你看的第一本中文书是什么书？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v11-e02",
+      "text": "我是第一！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v12",
+      "text": "学习",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v12-e01",
+      "text": "我要好好学习。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v12-e02",
+      "text": "他想学习中文。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v13",
+      "text": "做",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v13-e01",
+      "text": "爸爸在做早饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v13-e02",
+      "text": "我有很多事要做。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v14",
+      "text": "白天",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v14-e01",
+      "text": "今天白天我都在家。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v14-e02",
+      "text": "人们白天工作，晚上休息。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v15",
+      "text": "读书",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v15-e01",
+      "text": "星期天我要去书店读书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v15-e02",
+      "text": "妹妹非常喜欢读书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v16",
+      "text": "和",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v16-e01",
+      "text": "我和你去吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v16-e02",
+      "text": "我喜欢和我家的小狗玩。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v17",
+      "text": "朋友",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v17-e01",
+      "text": "我们是好朋友。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v17-e02",
+      "text": "他的朋友很多。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v18",
+      "text": "唱",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v18-e01",
+      "text": "她会唱很多中文歌。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v18-e02",
+      "text": "王老师唱歌很好听。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v19",
+      "text": "歌",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v19-e01",
+      "text": "妹妹喜欢唱歌。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v19-e02",
+      "text": "我喜欢听法语歌。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v20",
+      "text": "好听",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v20-e01",
+      "text": "他唱歌很好听。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v20-e02",
+      "text": "她说话真好听。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v21",
+      "text": "电视",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v21-e01",
+      "text": "妹妹要看电视。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v21-e02",
+      "text": "我们去买新电视吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v22",
+      "text": "狗",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v22-e01",
+      "text": "我们都喜欢小狗。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v22-e02",
+      "text": "我家有一只狗。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v23",
+      "text": "玩",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v23-e01",
+      "text": "我喜欢玩电脑。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l09-v23-e02",
+      "text": "回家后我和小狗玩了20分钟。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-d01-01",
+      "text": "请问，有杯子吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-d01-02",
+      "text": "有，杯子在这边。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l10-d01-03",
+      "text": "多少钱一个？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-d01-04",
+      "text": "这些五块钱一个，那些十块钱一个。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l10-d01-05",
+      "text": "我买这个吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-d02-01",
+      "text": "这儿的水果真不少！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-d02-02",
+      "text": "您想买什么？",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l10-d02-03",
+      "text": "我想买两斤苹果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-d02-04",
+      "text": "苹果三块五一斤。这些七块二，七块钱吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-d02-05",
+      "text": "好的，这儿的苹果真便宜！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-d03-01",
+      "text": "这家商店衣服真多！这件一百元，怎么样？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-d03-02",
+      "text": "好看，也不贵。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l10-d03-03",
+      "text": "小雪能穿，买一件吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-d03-04",
+      "text": "好的。小明能穿吗？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l10-d03-05",
+      "text": "不能。这些是女孩子穿的衣服，男孩子的衣服在那儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-d03-06",
+      "text": "好的。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l10-s01",
+      "text": "三元两角八分，也就是三块两毛八分。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-s02",
+      "text": "我的房间不大。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-s03",
+      "text": "那个苹果好吃。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-s04",
+      "text": "这个杯子怎么样？我很喜欢，也不贵。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-s05",
+      "text": "这本书怎么样？很好看。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-s06",
+      "text": "这个菜怎么样？这个菜不太好吃，我不喜欢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v01",
+      "text": "杯子",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v01-e01",
+      "text": "这个杯子太小了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v01-e02",
+      "text": "昨天我买了四个杯子。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v02",
+      "text": "售货员",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v02-e01",
+      "text": "我是这个商店的售货员。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v02-e02",
+      "text": "这个杯子多少钱？不知道，问一下售货员吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v03",
+      "text": "这边",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v03-e01",
+      "text": "来这边坐吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v03-e02",
+      "text": "我住在这边。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v04",
+      "text": "钱",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v04-e01",
+      "text": "她这个月没有钱了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v04-e02",
+      "text": "这些苹果八块钱。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v05",
+      "text": "块",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v05-e01",
+      "text": "这些苹果15块钱？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v05-e02",
+      "text": "这本书40块钱。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v06",
+      "text": "这些",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v06-e01",
+      "text": "这些人我都认识。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v06-e02",
+      "text": "这些东西都是你的吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v07",
+      "text": "那些",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v07-e01",
+      "text": "那些书是我的。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v07-e02",
+      "text": "那些人来做什么？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v08",
+      "text": "这儿",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v08-e01",
+      "text": "请问，这儿卖水果吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v08-e02",
+      "text": "这儿有一些苹果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v09",
+      "text": "水果",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v09-e01",
+      "text": "你喜欢吃什么水果？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v09-e02",
+      "text": "水果店在哪儿？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v10",
+      "text": "少",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v10-e01",
+      "text": "今天她买了不少水果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v10-e02",
+      "text": "她认识的中国朋友很少。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v11",
+      "text": "斤",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v11-e01",
+      "text": "我买了一斤苹果，很便宜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v11-e02",
+      "text": "苹果三块五一斤。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v12",
+      "text": "苹果",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v12-e01",
+      "text": "我早上吃了一个苹果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v12-e02",
+      "text": "我去超市买了些苹果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v13",
+      "text": "便宜",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v13-e01",
+      "text": "这件衣服不贵，很便宜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v13-e02",
+      "text": "我觉得这个手机不便宜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v14",
+      "text": "商店",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v14-e01",
+      "text": "妈妈去商店买了几件衣服。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v14-e02",
+      "text": "这家商店很小，东西不多。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v15",
+      "text": "衣服",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v15-e01",
+      "text": "这件衣服是谁的？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v15-e02",
+      "text": "我在外面买衣服呢，不在家。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v16",
+      "text": "件",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v16-e01",
+      "text": "这件事妈妈不知道，你不要说。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v16-e02",
+      "text": "我昨天买了三件衣服。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v17",
+      "text": "元",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v17-e01",
+      "text": "这件衣服一百元。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v17-e02",
+      "text": "我喜欢的那个杯子卖二十元。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v18",
+      "text": "怎么样",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v18-e01",
+      "text": "这件衣服怎么样?",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v18-e02",
+      "text": "你觉得昨天的电影怎么样？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v19",
+      "text": "贵",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v19-e01",
+      "text": "这个手机太贵了！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v19-e02",
+      "text": "这件衣服我很喜欢，也不贵。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v20",
+      "text": "穿",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v20-e01",
+      "text": "她今天穿的那件衣服很漂亮。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v20-e02",
+      "text": "弟弟不想穿这件衣服，要穿那件。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v21",
+      "text": "女",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v21-e01",
+      "text": "请女同学们来这边。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v21-e02",
+      "text": "我不认识那个女老师。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v22",
+      "text": "男",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v22-e01",
+      "text": "我们医院有很多男医生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v22-e02",
+      "text": "那个男同学是谁？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v23",
+      "text": "那儿",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v23-e01",
+      "text": "看，那儿有很多学生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l10-v23-e02",
+      "text": "我们去那儿玩吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-d01-01",
+      "text": "喂，李文，你什么时候能到饭店？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-d01-02",
+      "text": "还不知道，正在找呢。它是不是在超市后边？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l11-d01-03",
+      "text": "是的。你开车没开车？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-d01-04",
+      "text": "我没开车，坐车呢。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l11-d02-01",
+      "text": "你还在读大学吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-d02-02",
+      "text": "对，我读大学呢，还是大学生。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l11-d02-03",
+      "text": "你们学习忙不忙？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-d02-04",
+      "text": "非常忙，我学医，我们的课很多。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l11-d03-01",
+      "text": "弟弟起床没起床呢？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l11-d03-02",
+      "text": "没起床呢，还在睡觉。",
+      "voice": "girl"
+    },
+    {
+      "id": "hsk1-l11-d03-03",
+      "text": "还睡呢？他今天去不去那里？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l11-d03-04",
+      "text": "去哪里？",
+      "voice": "girl"
+    },
+    {
+      "id": "hsk1-l11-d03-05",
+      "text": "去超市。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l11-d03-06",
+      "text": "我昨天问他，他对我说，他不去，他今天要和小朋友玩。",
+      "voice": "girl"
+    },
+    {
+      "id": "hsk1-l11-s01",
+      "text": "它是不是在超市后边？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-s02",
+      "text": "你去没去学校？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-s03",
+      "text": "这件衣服好看不好看？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-s04",
+      "text": "学生们正在上课呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-s05",
+      "text": "我们读书呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-s06",
+      "text": "他今天要和小朋友玩。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-s07",
+      "text": "妈妈要去超市。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-s08",
+      "text": "白家月要在家里学中文。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v01",
+      "text": "时候",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v01-e01",
+      "text": "你什么时候回家？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v01-e02",
+      "text": "你什么时候下课？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v02",
+      "text": "饭店",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v02-e01",
+      "text": "那家饭店的菜不好吃。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v02-e02",
+      "text": "学校外面有很多饭店。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v03",
+      "text": "知道",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v03-e01",
+      "text": "我不知道你的衣服在哪儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v03-e02",
+      "text": "你知不知道我要去北京？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v04",
+      "text": "正在",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v04-e01",
+      "text": "弟弟正在睡觉呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v04-e02",
+      "text": "我打电话的时候，她正在开车。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v05",
+      "text": "找",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v05-e01",
+      "text": "老师有事找你。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v05-e02",
+      "text": "你再找找，我昨天还看见它在房间里呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v06",
+      "text": "开车",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v06-e01",
+      "text": "我不会开车。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v06-e02",
+      "text": "你开车上班吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v06-e03",
+      "text": "你开了三个小时车了，休息一下吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v07",
+      "text": "车",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v07-e01",
+      "text": "今天我想坐车上学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v07-e02",
+      "text": "爸爸想买新车。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v08",
+      "text": "在",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v08-e01",
+      "text": "我和女朋友在看电影。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v08-e02",
+      "text": "爸爸在开车，不能打电话。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v09",
+      "text": "读",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v09-e01",
+      "text": "我妹妹正在读小学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v09-e02",
+      "text": "你现在读大学吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v10",
+      "text": "大学",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v10-e01",
+      "text": "他是大学老师。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v10-e02",
+      "text": "我在北京大学学中文。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v11",
+      "text": "大学生",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v11-e01",
+      "text": "她哥哥是大学生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v11-e02",
+      "text": "大学生学习忙不忙？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v12",
+      "text": "学",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v12-e01",
+      "text": "妹妹在学写字。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v12-e02",
+      "text": "我想学中文，你呢？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v13",
+      "text": "医",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v13-e01",
+      "text": "读大学的时候，他学医。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v13-e02",
+      "text": "学医的大学生非常忙。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v14",
+      "text": "弟弟",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v14-e01",
+      "text": "我弟弟今年十岁了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v14-e02",
+      "text": "这是我弟弟的房间。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v15",
+      "text": "起床",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v15-e01",
+      "text": "起床吧，中午十二点了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v15-e02",
+      "text": "弟弟不想起床，还睡呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v16",
+      "text": "睡觉",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v16-e01",
+      "text": "我昨天晚上没睡觉。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v16-e02",
+      "text": "我在车上睡了一觉。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v16-e03",
+      "text": "爸爸昨晚睡了个好觉。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v17",
+      "text": "睡",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v17-e01",
+      "text": "小孩子要早睡。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v17-e02",
+      "text": "睡吧，很晚了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v18",
+      "text": "那里",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v18-e01",
+      "text": "你去那里找他吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v18-e02",
+      "text": "学校外面有一家超市，那里有很多东西。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v19",
+      "text": "哪里",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v19-e01",
+      "text": "妈妈在哪里？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v19-e02",
+      "text": "你要去哪里？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v20",
+      "text": "昨天",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v20-e01",
+      "text": "昨天我没看见你。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v20-e02",
+      "text": "她昨天没来上课。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v21",
+      "text": "问",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v21-e01",
+      "text": "请问，校医院在哪里？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v21-e02",
+      "text": "您好，我想问一个问题。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v22",
+      "text": "对",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v22-e01",
+      "text": "我有事对你说。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v22-e02",
+      "text": "我男朋友对我很好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v23",
+      "text": "说",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v23-e01",
+      "text": "她会说中文。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v23-e02",
+      "text": "听了她的话，我不知道说什么。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v24",
+      "text": "要",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v24-e01",
+      "text": "晚上我要和朋友去唱歌。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v24-e02",
+      "text": "我要去书店买一本书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v25",
+      "text": "小朋友",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v25-e01",
+      "text": "小朋友，请你不要说话。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l11-v25-e02",
+      "text": "小朋友们都喜欢来这里玩。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-d01-01",
+      "text": "今天天气怎么样？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l12-d01-02",
+      "text": "这里的天不太好，下雨了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-d01-03",
+      "text": "雨大吗？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l12-d01-04",
+      "text": "有点儿大，我觉得很冷。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-d02-01",
+      "text": "昨天下雪了。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l12-d02-02",
+      "text": "是的，太冷了。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l12-d02-03",
+      "text": "你昨天没来公司，生病了？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l12-d02-04",
+      "text": "对，我昨天去医院看病了。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l12-d03-01",
+      "text": "医生，我病了。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l12-d03-02",
+      "text": "我看看。你觉得怎么样？",
+      "voice": "male3"
+    },
+    {
+      "id": "hsk1-l12-d03-03",
+      "text": "我很冷。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l12-d03-04",
+      "text": "好的，吃一点儿药，今天休息半天吧。",
+      "voice": "male3"
+    },
+    {
+      "id": "hsk1-l12-d03-05",
+      "text": "好的。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l12-d03-06",
+      "text": "回家后再喝些热水。",
+      "voice": "male3"
+    },
+    {
+      "id": "hsk1-l12-s01",
+      "text": "下雨了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-s02",
+      "text": "下雪了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-s03",
+      "text": "上课了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-s04",
+      "text": "真漂亮！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-s05",
+      "text": "十二点了，吃午饭吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-s06",
+      "text": "弟弟起床了吗？没起床呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-s07",
+      "text": "太冷了！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-s08",
+      "text": "这个杯子太小了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-s09",
+      "text": "我们今天太高兴了！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v01",
+      "text": "天气",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v01-e01",
+      "text": "今天天气怎么样？今天天气不太好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v01-e02",
+      "text": "今天是个好天气。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v02",
+      "text": "这里",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v02-e01",
+      "text": "我们可以在这里买些水果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v02-e02",
+      "text": "你喜欢这里吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v03",
+      "text": "天",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v03-e01",
+      "text": "今天的天不好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v03-e02",
+      "text": "明天是好天吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v04",
+      "text": "下雨",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v04-e01",
+      "text": "下雨了，太冷了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v04-e02",
+      "text": "这里很少下雨。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v05",
+      "text": "了",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v05-e01",
+      "text": "她去上海了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v05-e02",
+      "text": "我生病了，不能去北京了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v05-e03",
+      "text": "哥哥是大学生了，妹妹还是小学生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v06",
+      "text": "雨",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v06-e01",
+      "text": "外面下大雨呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v06-e02",
+      "text": "雨天你坐出租车去上班吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v07",
+      "text": "有点儿",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v07-e01",
+      "text": "今天的天有点儿不好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v07-e02",
+      "text": "我有点儿冷。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v08",
+      "text": "觉得",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v08-e01",
+      "text": "你觉得我做的菜怎么样？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v08-e02",
+      "text": "他觉得这儿的茶不好喝。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v09",
+      "text": "冷",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v09-e01",
+      "text": "今天太冷了！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v09-e02",
+      "text": "昨天下雪了，非常冷。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v10",
+      "text": "下",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v10-e01",
+      "text": "昨天下雨了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v10-e02",
+      "text": "明天下雪，你多穿点儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v11",
+      "text": "雪",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v11-e01",
+      "text": "我喜欢下雪天。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v11-e02",
+      "text": "下大雪了，弟弟很高兴。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v12",
+      "text": "来",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v12-e01",
+      "text": "他来中国一年了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v12-e02",
+      "text": "我朋友晚上来我家吃饭。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v13",
+      "text": "公司",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v13-e01",
+      "text": "我们公司不大。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v13-e02",
+      "text": "我在这家公司工作五年了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v14",
+      "text": "生病",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v14-e01",
+      "text": "我生病了，不能和你去看电影了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v14-e02",
+      "text": "你昨天没来学校，生病了吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v15",
+      "text": "看病",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v15-e01",
+      "text": "我下午去医院看病。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v15-e02",
+      "text": "妈妈生病了，现在要去看病。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v16",
+      "text": "病",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v16-e01",
+      "text": "你病了吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v16-e02",
+      "text": "他今天病了，不能去上学了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v17",
+      "text": "一点儿",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v17-e01",
+      "text": "你吃一点儿水果吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v17-e02",
+      "text": "太贵了，便宜一点儿吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v18",
+      "text": "药",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v18-e01",
+      "text": "弟弟病了，我去买点儿药。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v18-e02",
+      "text": "医生说这个药要吃两个星期。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v19",
+      "text": "天",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v19-e01",
+      "text": "明天我要去北京。去几天？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v19-e02",
+      "text": "今天是我上大学的第一天。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v20",
+      "text": "回",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v20-e01",
+      "text": "他晚上不回学校了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v20-e02",
+      "text": "他今年八月回国。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v21",
+      "text": "再",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v21-e01",
+      "text": "你们吃了饭再回家吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v21-e02",
+      "text": "你打电话问一下再去吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v22",
+      "text": "喝",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v22-e01",
+      "text": "她喜欢喝中国茶。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v22-e02",
+      "text": "天气太热了，多喝点儿水吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v23",
+      "text": "热",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v23-e01",
+      "text": "今天天气不太热。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v23-e02",
+      "text": "昨天很热。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v24",
+      "text": "水",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v24-e01",
+      "text": "请问，有热水吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l12-v24-e02",
+      "text": "正在喝水的那个人是谁？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-d01-01",
+      "text": "王老师，我可以再问您一个问题吗？",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l13-d01-02",
+      "text": "可以。你有什么问题？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-d01-03",
+      "text": "那个小店卖不卖手机？",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l13-d01-04",
+      "text": "我不知道。你可以打电话问一下。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-d02-01",
+      "text": "女士，请坐！您喝什么？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-d02-02",
+      "text": "我看一下。请给我一杯牛奶。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l13-d02-03",
+      "text": "好的。您还要什么？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-d02-04",
+      "text": "我还没吃早饭，再要这个面包和鸡蛋吧。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l13-d03-01",
+      "text": "先生，请坐！您要什么？",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l13-d03-02",
+      "text": "我要一斤饺子。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l13-d03-03",
+      "text": "好的。一斤饺子四十个。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l13-d03-04",
+      "text": "40个太多了，我要一半吧。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l13-d03-05",
+      "text": "半斤20个。您想喝什么？",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l13-d03-06",
+      "text": "请给我一杯茶吧。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l13-s01",
+      "text": "我可以再问您一个问题吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-s02",
+      "text": "你们可以看这本书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-s03",
+      "text": "我可以坐吗？可以，请坐！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-s04",
+      "text": "你可以打电话问一下。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-s05",
+      "text": "请休息一下。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-s06",
+      "text": "你看一下吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-s07",
+      "text": "请给我一杯牛奶。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-s08",
+      "text": "白家月给安妮一个苹果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-s09",
+      "text": "我问老师两个问题。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v01",
+      "text": "可以",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v01-e01",
+      "text": "妈妈，我们现在可以吃饭了吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v01-e02",
+      "text": "我可以坐在这儿吗？可以，你坐吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v02",
+      "text": "再",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v02-e01",
+      "text": "我想再吃一个苹果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v02-e02",
+      "text": "妈妈，再给我读一本书吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v03",
+      "text": "问题",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v03-e01",
+      "text": "你有问题可以来问我。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v03-e02",
+      "text": "我有很多问题要问老师。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v04",
+      "text": "卖",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v04-e01",
+      "text": "那边在卖什么东西？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v04-e02",
+      "text": "他在一家商店卖水果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v05",
+      "text": "打电话",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v05-e01",
+      "text": "老师在打电话呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v05-e02",
+      "text": "昨天我给妈妈打了一个电话。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v06",
+      "text": "一下",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v06-e01",
+      "text": "你看一下时间，现在几点了？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v06-e02",
+      "text": "我们休息一下吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v07",
+      "text": "服务员",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v07-e01",
+      "text": "我是这个饭馆的服务员。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v07-e02",
+      "text": "我想找一下这里的服务员。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v08",
+      "text": "女士",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v08-e01",
+      "text": "王女士是我的大学同学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v08-e02",
+      "text": "女士们、先生们，大家好！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v09",
+      "text": "请",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v09-e01",
+      "text": "您请坐，请喝茶。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v09-e02",
+      "text": "请给我一杯热水，谢谢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v10",
+      "text": "坐",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v10-e01",
+      "text": "我们坐在那边吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v10-e02",
+      "text": "她坐在我前边。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v11",
+      "text": "给",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v11-e01",
+      "text": "给你一个苹果。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v11-e02",
+      "text": "哥哥给了我一个新电脑。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v12",
+      "text": "杯",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v12-e01",
+      "text": "我想要一杯茶。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v12-e02",
+      "text": "今天早上我喝了一杯牛奶。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v13",
+      "text": "要",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v13-e01",
+      "text": "我要一杯热水，谢谢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v13-e02",
+      "text": "儿子想要一个新手机。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v14",
+      "text": "早饭",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v14-e01",
+      "text": "你吃早饭了吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v14-e02",
+      "text": "今天学校的早饭很好吃。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v15",
+      "text": "这个",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v15-e01",
+      "text": "这个房间真大！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v15-e02",
+      "text": "我喜欢这个杯子。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v16",
+      "text": "面包",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v16-e01",
+      "text": "我想再吃一块面包。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v16-e02",
+      "text": "您做的面包真好吃！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v17",
+      "text": "鸡蛋",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v17-e01",
+      "text": "我昨天在超市买了三斤鸡蛋。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v17-e02",
+      "text": "我的早饭是两个鸡蛋、一杯牛奶、一块面包。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v18",
+      "text": "先生",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v18-e01",
+      "text": "先生，请坐。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v18-e02",
+      "text": "李先生今天没上班，您明天再打电话吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v19",
+      "text": "一半",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v19-e01",
+      "text": "这个面包我吃了一半。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v19-e02",
+      "text": "这个苹果我们一人一半吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v20",
+      "text": "茶",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v20-e01",
+      "text": "很多中国人喜欢喝茶。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l13-v20-e02",
+      "text": "桌子上有一杯热茶。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-d01-01",
+      "text": "你们上火车后看见王老师了吗？",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l14-d01-02",
+      "text": "没看见。中午车开后，有些人在看书，有些人睡觉了。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l14-d01-03",
+      "text": "你呢？",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l14-d01-04",
+      "text": "我看了一个电影。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l14-d02-01",
+      "text": "你们会说汉语了，也会写汉字了吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-d02-02",
+      "text": "我们都会写了。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l14-d02-03",
+      "text": "老师，我听不见。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l14-d02-04",
+      "text": "请大家不要说话！请听老师的问题：你们都会写哪些汉字了？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-d02-05",
+      "text": "我会写这些字了，您看！",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l14-d03-01",
+      "text": "明年女儿上中学。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l14-d03-02",
+      "text": "对。儿子也上小学了。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l14-d03-03",
+      "text": "我们家有了一个中学生。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l14-d03-04",
+      "text": "还有了一个小学生。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l14-d03-05",
+      "text": "上学后，他们都忙了。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l14-d03-06",
+      "text": "是的。太晚了，睡觉吧。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l14-s01",
+      "text": "我看了一个电影。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-s02",
+      "text": "我买了一个新电脑。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-s03",
+      "text": "我昨天没去商店买东西。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-s04",
+      "text": "我们都会写了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-s05",
+      "text": "我和我的朋友们都去。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-s06",
+      "text": "同学们都没听见。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v01",
+      "text": "上",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v01-e01",
+      "text": "我们什么时候上飞机？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v01-e02",
+      "text": "上车后，我睡了一觉。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v02",
+      "text": "火车",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v02-e01",
+      "text": "我们坐火车去北京吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v02-e02",
+      "text": "你们的火车几点开？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v03",
+      "text": "中午",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v03-e01",
+      "text": "今天中午真热！",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v03-e02",
+      "text": "我们中午去北京饭店吃饭吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v04",
+      "text": "开",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v04-e01",
+      "text": "看，火车开了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v04-e02",
+      "text": "车什么时候开？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v05",
+      "text": "有些",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v05-e01",
+      "text": "有些学生在上课，有些在外面玩。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v05-e02",
+      "text": "有些人不喜欢看书，喜欢看电影。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v06",
+      "text": "有的",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v06-e01",
+      "text": "有的人喜欢吃包子，有的人喜欢吃面条儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v06-e02",
+      "text": "有的小朋友在玩，有的在看书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v06-e03",
+      "text": "这些书有的还是新书呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v07",
+      "text": "了",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v07-e01",
+      "text": "你们吃了饭再回家吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v07-e02",
+      "text": "我买了一只小狗。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v08",
+      "text": "写",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v08-e01",
+      "text": "请在这里写你的名字。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v08-e02",
+      "text": "她会写一些汉字。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v09",
+      "text": "都",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v09-e01",
+      "text": "这个电影大家都觉得很好。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v09-e02",
+      "text": "他们都是我的朋友。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v10",
+      "text": "听见",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v10-e01",
+      "text": "我说的话你听见了吗？对不起，我没听见。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v10-e02",
+      "text": "我听不见老师说的话。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v11",
+      "text": "不要",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v11-e01",
+      "text": "不要唱歌了，爸爸在工作呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v11-e02",
+      "text": "你不要说了，我不想听。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v12",
+      "text": "说话",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v12-e01",
+      "text": "我女儿两岁了，还不会说话呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v12-e02",
+      "text": "昨天他和我说了很多话。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v13",
+      "text": "听",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v13-e01",
+      "text": "她很喜欢听中文歌。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v13-e02",
+      "text": "你听，火车来了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v14",
+      "text": "哪些",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v14-e01",
+      "text": "哪些书是你的？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v14-e02",
+      "text": "今天我们要做哪些事？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v15",
+      "text": "字",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v15-e01",
+      "text": "我弟弟还不会写字。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v15-e02",
+      "text": "他写了20个字，想休息一下。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v16",
+      "text": "汉语",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v16-e01",
+      "text": "我喜欢学汉语。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v16-e02",
+      "text": "他是我们的汉语老师。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v17",
+      "text": "汉字",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v17-e01",
+      "text": "我想学习写汉字。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v17-e02",
+      "text": "他觉得写汉字非常好玩。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v18",
+      "text": "明年",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v18-e01",
+      "text": "明年哥哥上大学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v18-e02",
+      "text": "我们明年要去北京玩。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v19",
+      "text": "上",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v19-e01",
+      "text": "我八点上课。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v19-e02",
+      "text": "弟弟明年上小学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v20",
+      "text": "中学",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v20-e01",
+      "text": "这是我的中学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v20-e02",
+      "text": "上中学后，姐姐中午不回家了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v21",
+      "text": "小学",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v21-e01",
+      "text": "我爸爸是小学老师。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v21-e02",
+      "text": "我的小学很大、很漂亮。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v22",
+      "text": "中学生",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v22-e01",
+      "text": "他儿子13岁，是中学生了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v22-e02",
+      "text": "这些中学生很喜欢学习。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v23",
+      "text": "小学生",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v23-e01",
+      "text": "他们都是小学生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v23-e02",
+      "text": "小学生要多读书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v24",
+      "text": "上学",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v24-e01",
+      "text": "我今天生病了，不去上学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v24-e02",
+      "text": "妹妹上了一年学，学了很多东西。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v25",
+      "text": "他们",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v25-e01",
+      "text": "他们都是爸爸的朋友。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v25-e02",
+      "text": "我昨天看见他们了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v26",
+      "text": "她们",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v26-e01",
+      "text": "她们三个人是好朋友。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v26-e02",
+      "text": "她们都喜欢听歌、看电影。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v27",
+      "text": "它们",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v27-e01",
+      "text": "我家有一只猫和一只狗，我很喜欢它们。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v27-e02",
+      "text": "它们都在椅子上睡觉呢。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v28",
+      "text": "晚",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v28-e01",
+      "text": "太晚了，我们回家吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l14-v28-e02",
+      "text": "对不起，我今天来晚了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-d01-01",
+      "text": "你们爱吃哪个菜？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l15-d01-02",
+      "text": "我喜欢这个，也喜欢那个。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l15-d01-03",
+      "text": "这些菜都好吃，还很好看。",
+      "voice": "male"
+    },
+    {
+      "id": "hsk1-l15-d01-04",
+      "text": "我爱吃中国菜，也喜欢做。大家多吃点儿。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l15-d02-01",
+      "text": "你们都想去哪儿？",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l15-d02-02",
+      "text": "去年我和男朋友去了西安，今年我想去北京。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l15-d02-03",
+      "text": "前几年我去了西安，非常好玩儿。今年我也想去北京。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l15-d02-04",
+      "text": "我和王老师都是北京人，北京非常漂亮。",
+      "voice": "male2"
+    },
+    {
+      "id": "hsk1-l15-d03-01",
+      "text": "你们的飞机到北京要几个小时？",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l15-d03-02",
+      "text": "九个小时。",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l15-d03-03",
+      "text": "我家人都在北京，星期天我姐姐也有时间，她可以去机场接你们，你们也可以住我家。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l15-d03-04",
+      "text": "我们星期日早上八点到大兴机场，早不早？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-d03-05",
+      "text": "不早。",
+      "voice": "female3"
+    },
+    {
+      "id": "hsk1-l15-d03-06",
+      "text": "谢谢老师！那我们和您姐姐在大兴机场见！",
+      "voice": "female2"
+    },
+    {
+      "id": "hsk1-l15-s01",
+      "text": "我喜欢这个，也喜欢那个。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-s02",
+      "text": "王老师是北京人，李文也是北京人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-s03",
+      "text": "我喜欢喝中国茶，还喜欢吃中国菜。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v01",
+      "text": "爱",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v01-e01",
+      "text": "你爱看什么电影？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v01-e02",
+      "text": "姐姐很爱学习。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v02",
+      "text": "哪个",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v02-e01",
+      "text": "这两个手机，你想买哪个？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v02-e02",
+      "text": "哪件衣服是你的？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v03",
+      "text": "去年",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v03-e01",
+      "text": "去年我还在上中学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v03-e02",
+      "text": "那是去年的事了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v04",
+      "text": "男朋友",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v04-e01",
+      "text": "她的男朋友是医生。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v04-e02",
+      "text": "我和我男朋友是中学同学。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v05",
+      "text": "几",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v05-e01",
+      "text": "几天前我看见他了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v05-e02",
+      "text": "我想去书店买几本书。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v06",
+      "text": "年",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v06-e01",
+      "text": "你来中国几年了？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v06-e02",
+      "text": "他学习中文两年了。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v07",
+      "text": "好玩儿",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v07-e01",
+      "text": "我觉得这里不太好玩儿。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v07-e02",
+      "text": "北京好玩儿吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v08",
+      "text": "西安",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v09",
+      "text": "北京",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v10",
+      "text": "飞机",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v10-e01",
+      "text": "我们坐飞机去北京吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v10-e02",
+      "text": "在飞机上，我认识了一个中国朋友。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v11",
+      "text": "要",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v11-e01",
+      "text": "你做饭要几个鸡蛋？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v11-e02",
+      "text": "你买电脑要多少钱？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v11-e03",
+      "text": "我们开车去西安要六个小时。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v12",
+      "text": "小时",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v12-e01",
+      "text": "我们两个小时后在学校书店见。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v12-e02",
+      "text": "我今天上了四个小时的课。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v13",
+      "text": "家人",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v13-e01",
+      "text": "我爱我的家人。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v13-e02",
+      "text": "星期天我想和家人去外边玩。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v14",
+      "text": "时间",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v14-e01",
+      "text": "我现在很忙，没有时间。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v14-e02",
+      "text": "你在这家公司工作多长时间了？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v15",
+      "text": "机场",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v15-e01",
+      "text": "我们去机场要多长时间？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v15-e02",
+      "text": "明天早上我要去机场接朋友。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v16",
+      "text": "接",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v16-e01",
+      "text": "妈妈来学校接我回家。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v16-e02",
+      "text": "下午四点，你可以去接一下王先生吗？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v17",
+      "text": "住",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v17-e01",
+      "text": "我们要在这里住三天。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v17-e02",
+      "text": "你现在住在哪儿？",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v18",
+      "text": "早",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v18-e01",
+      "text": "我们早点儿去机场吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v18-e02",
+      "text": "时间还早呢，我们再睡半个小时吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v19",
+      "text": "那",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v19-e01",
+      "text": "妈妈，我写了一个小时的字了。那休息一下吧。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v19-e02",
+      "text": "下雨了。那我们在家里玩。",
+      "voice": "female"
+    },
+    {
+      "id": "hsk1-l15-v20",
+      "text": "大兴机场",
+      "voice": "female"
+    }
+  ]
+}

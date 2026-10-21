@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<!--
+  Dashboard.html — Teacher dashboard (Phase 2), served by Apps Script doGet()
+  on the PRIVATE link (/exec?k=<DASH_KEY>). No login form: the private link is
+  the credential. Talks to the backend through google.script.run.teacherApi()
+  — teacher ops are unreachable from the public student endpoint.
+  UI: English + Arabic bilingual, self-contained (inline CSS/JS, no external
+  resources so it also renders inside constrained viewers).
+-->
+<html>
+<head>
+<base target="_top">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --side: #151922; --side-2: #1d2330; --side-ink: #9aa3b8; --side-hi: #ffffff;
+    --bg: #f4f6fa; --card: #ffffff; --ink: #171c26; --muted: #68707e; --line: #e4e7ee;
+    --brand: #d0342c; --brand-2: #a5281f; --brand-soft: #fdecea;
+    --green: #0e9f6e; --green-soft: #e2f7ef;
+    --blue: #3867ee; --blue-soft: #e9eefd;
+    --orange: #d97706; --orange-soft: #fdf1de;
+    --gray-soft: #eef0f4;
+    --r: 16px;
+    --shadow: 0 1px 2px rgba(16,24,40,.05), 0 4px 16px rgba(16,24,40,.06);
+    --font: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial,
+            "Noto Sans Arabic", "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body { background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 15px; }
+  button { font-family: var(--font); cursor: pointer; }
+
+  /* ============ layout ============ */
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar {
+    width: 248px; flex-shrink: 0; background: var(--side); color: var(--side-ink);
+    display: flex; flex-direction: column; position: sticky; top: 0; height: 100vh;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; padding: 22px 20px 18px; }
+  .brand-mark {
+    width: 42px; height: 42px; border-radius: 12px; flex-shrink: 0;
+    background: linear-gradient(135deg, #ff7a59, var(--brand) 55%, var(--brand-2));
+    color: #fff; font-size: 22px; font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 14px rgba(208,52,44,.4);
+  }
+  .brand-txt b { display: block; color: var(--side-hi); font-size: 15px; letter-spacing: .01em; }
+  .brand-txt span { display: block; font-size: 11.5px; margin-top: 2px; }
+  .nav { padding: 8px 12px; display: flex; flex-direction: column; gap: 4px; }
+  .nav button {
+    display: flex; align-items: center; gap: 11px; width: 100%;
+    background: transparent; border: 0; border-radius: 11px;
+    color: var(--side-ink); font-size: 13.5px; font-weight: 600;
+    padding: 11px 13px; text-align: left; transition: background .15s, color .15s;
+  }
+  .nav button .ic { font-size: 16px; width: 20px; text-align: center; }
+  .nav button .ar { margin-left: auto; font-size: 11px; opacity: .75; }
+  .nav button:hover { background: var(--side-2); color: #dfe4ef; }
+  .nav button.active {
+    background: linear-gradient(90deg, rgba(208,52,44,.22), rgba(208,52,44,.08));
+    color: #fff; box-shadow: inset 3px 0 0 var(--brand);
+  }
+  .side-foot { margin-top: auto; padding: 16px 20px 20px; font-size: 11.5px; line-height: 1.6; }
+  .side-foot .site-url-row { display: flex; gap: 6px; align-items: center; margin-bottom: 10px; }
+  .side-foot input {
+    flex: 1; min-width: 0; background: var(--side-2); border: 1px solid #2a3140; color: #dfe4ef;
+    border-radius: 8px; padding: 7px 9px; font-size: 11px; font-family: var(--font);
+  }
+  .side-foot .gear {
+    background: var(--side-2); border: 1px solid #2a3140; color: var(--side-ink);
+    border-radius: 8px; padding: 6px 9px; font-size: 12px;
+  }
+  .side-note { color: #6b7488; }
+
+  .content { flex: 1; min-width: 0; padding: 26px 30px 60px; }
+  .topbar { display: flex; align-items: flex-end; gap: 14px; margin-bottom: 22px; flex-wrap: wrap; }
+  .topbar h1 { margin: 0; font-size: 21px; font-weight: 800; letter-spacing: -.01em; }
+  .topbar .sub { color: var(--muted); font-size: 13px; margin-top: 3px; }
+  .topbar .spacer { flex: 1; }
+  .updated { color: var(--muted); font-size: 12px; }
+  .btn {
+    border: 1px solid var(--line); background: var(--card); color: var(--ink);
+    border-radius: 11px; padding: 9px 16px; font-size: 13.5px; font-weight: 700;
+    box-shadow: 0 1px 2px rgba(16,24,40,.04); transition: border-color .15s, transform .05s;
+  }
+  .btn:hover { border-color: #c9cfdb; }
+  .btn:active { transform: translateY(1px); }
+  .btn.primary {
+    background: linear-gradient(135deg, #e04a3f, var(--brand) 60%, var(--brand-2));
+    border: 0; color: #fff; box-shadow: 0 4px 14px rgba(208,52,44,.32);
+  }
+  .btn.primary:hover { filter: brightness(1.05); }
+  .btn:disabled { opacity: .6; cursor: wait; }
+
+  /* ============ cards & KPIs ============ */
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--r);
+    box-shadow: var(--shadow); padding: 20px 22px; margin-bottom: 20px;
+  }
+  .card h2 { margin: 0 0 3px; font-size: 15.5px; font-weight: 800; }
+  .card .sub { color: var(--muted); font-size: 12.5px; margin-bottom: 16px; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(158px, 1fr)); gap: 14px; margin-bottom: 20px; }
+  .kpi {
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--r);
+    box-shadow: var(--shadow); padding: 16px 18px; position: relative; overflow: hidden;
+  }
+  .kpi::after {
+    content: ''; position: absolute; inset-inline-start: 0; top: 0; bottom: 0; width: 4px;
+    background: var(--kc, var(--brand)); border-radius: 4px 0 0 4px;
+  }
+  .kpi .k-ic { font-size: 17px; }
+  .kpi b { display: block; font-size: 27px; font-weight: 800; letter-spacing: -.02em; margin: 4px 0 2px; color: var(--kc, var(--ink)); }
+  .kpi .k-label { font-size: 12px; font-weight: 700; color: var(--ink); }
+  .kpi .k-label .ar { color: var(--muted); font-weight: 600; }
+
+  /* ============ tables ============ */
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th {
+    text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--muted); font-weight: 700; padding: 8px 12px; border-bottom: 1.5px solid var(--line);
+    white-space: nowrap;
+  }
+  td { padding: 11px 12px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+  tbody tr { transition: background .12s; }
+  tbody tr:hover { background: #fafbfd; }
+  tbody tr.clickable { cursor: pointer; }
+  .t-empty { color: var(--muted); text-align: center; padding: 26px 10px !important; font-size: 13px; line-height: 1.7; }
+
+  .stu { display: flex; align-items: center; gap: 11px; min-width: 0; }
+  .avatar {
+    width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 800; font-size: 15px; color: #fff;
+  }
+  .stu-txt { min-width: 0; }
+  .stu-name { font-weight: 700; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .stu-id { color: var(--muted); font-size: 11px; font-family: ui-monospace, Consolas, monospace; }
+
+  .prog { display: flex; align-items: center; gap: 9px; min-width: 130px; }
+  .bar { flex: 1; background: var(--gray-soft); border-radius: 999px; height: 7px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, #e8695a, var(--brand)); }
+  .prog .pct { font-size: 12px; font-weight: 700; color: var(--muted); width: 38px; text-align: right; }
+
+  .pill {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 3.5px 11px; border-radius: 999px; font-size: 11.5px; font-weight: 700; white-space: nowrap;
+  }
+  .pill::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  .pill.completed { background: var(--green-soft); color: var(--green); }
+  .pill.progressing, .pill.in_progress { background: var(--blue-soft); color: var(--blue); }
+  .pill.not_started { background: var(--gray-soft); color: var(--muted); }
+  .pill.stale { background: var(--orange-soft); color: var(--orange); }
+
+  .acts { display: flex; gap: 6px; justify-content: flex-end; }
+  .icon-act {
+    border: 1px solid var(--line); background: var(--card); border-radius: 9px;
+    padding: 6px 10px; font-size: 12.5px; color: var(--muted); font-weight: 600;
+    transition: all .15s; white-space: nowrap;
+  }
+  .icon-act:hover { color: var(--brand); border-color: var(--brand); background: var(--brand-soft); }
+  .icon-act.copied { color: var(--green); border-color: var(--green); background: var(--green-soft); }
+
+  .skeleton td { padding: 14px 12px; }
+  .sk {
+    height: 13px; border-radius: 7px;
+    background: linear-gradient(90deg, #edeff4 25%, #f6f7fa 50%, #edeff4 75%);
+    background-size: 200% 100%; animation: shimmer 1.3s infinite;
+  }
+  @keyframes shimmer { to { background-position: -200% 0; } }
+
+  /* ============ course view ============ */
+  .grid2 { display: grid; grid-template-columns: 1.4fr 1fr; gap: 20px; align-items: start; }
+  .lesson-row { display: grid; grid-template-columns: 30px 1fr 150px 86px; gap: 12px; align-items: center; padding: 9px 4px; border-bottom: 1px solid var(--line); }
+  .lesson-row:last-child { border-bottom: 0; }
+  .lesson-row .ln { color: var(--muted); font-weight: 800; font-size: 12px; }
+  .lesson-row .lt b { font-size: 13px; display: block; }
+  .lesson-row .lt span { color: var(--muted); font-size: 11.5px; }
+  .stack { display: flex; height: 8px; border-radius: 999px; overflow: hidden; background: var(--gray-soft); }
+  .stack .s-done { background: var(--green); }
+  .stack .s-started { background: #7fa4f5; }
+  .lesson-row .cnt { font-size: 11.5px; color: var(--muted); text-align: right; white-space: nowrap; }
+  .lesson-row .cnt b { color: var(--ink); }
+
+  /* ============ add student ============ */
+  .add-wrap { max-width: 620px; }
+  .field-label { display: block; font-size: 12.5px; font-weight: 700; margin-bottom: 7px; }
+  .field-label .ar { color: var(--muted); font-weight: 600; }
+  .input-lg {
+    width: 100%; border: 1.5px solid var(--line); border-radius: 12px;
+    padding: 13px 15px; font-size: 15px; font-family: var(--font); color: var(--ink);
+    background: #fbfcfe; outline: none; transition: border-color .15s, background .15s;
+  }
+  .input-lg:focus { border-color: var(--brand); background: #fff; }
+  .add-row { display: flex; gap: 10px; margin-top: 14px; }
+  .add-row .input-lg { flex: 1; }
+  .cred-card {
+    margin-top: 20px; border: 1.5px dashed var(--brand); border-radius: var(--r);
+    background: linear-gradient(180deg, #fffaf9, var(--card)); padding: 20px 22px;
+    animation: pop .25s ease;
+  }
+  @keyframes pop { from { transform: scale(.97); opacity: 0; } }
+  .cred-card .cc-title { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; color: var(--brand); margin-bottom: 12px; }
+  .cred-lines { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+  .cred-line { display: flex; align-items: center; gap: 10px; font-size: 14px; }
+  .cred-line .cl-label { color: var(--muted); font-size: 12px; min-width: 120px; }
+  .cred-line b { font-size: 15px; }
+  .code-big {
+    font-family: ui-monospace, Consolas, monospace; font-size: 24px; font-weight: 800;
+    letter-spacing: .22em; color: #8a4b08; background: var(--orange-soft);
+    border: 1px solid #f3d9a4; padding: 6px 16px; border-radius: 12px;
+  }
+  .hint { color: var(--muted); font-size: 12px; line-height: 1.7; }
+  .error-txt { color: var(--brand); font-size: 13px; font-weight: 600; margin-top: 10px; min-height: 18px; }
+
+  /* ============ report slide-over ============ */
+  .overlay {
+    position: fixed; inset: 0; background: rgba(13,16,22,.45); backdrop-filter: blur(2px);
+    opacity: 0; pointer-events: none; transition: opacity .2s; z-index: 90;
+  }
+  .overlay.show { opacity: 1; pointer-events: auto; }
+  .sheet {
+    position: fixed; top: 0; right: 0; bottom: 0; width: min(560px, 96vw); z-index: 91;
+    background: var(--bg); box-shadow: -12px 0 40px rgba(13,16,22,.22);
+    transform: translateX(103%); transition: transform .26s cubic-bezier(.32,.72,.28,1);
+    display: flex; flex-direction: column;
+  }
+  .sheet.show { transform: none; }
+  .sheet-head {
+    background: var(--card); border-bottom: 1px solid var(--line);
+    padding: 18px 22px; display: flex; align-items: center; gap: 13px;
+  }
+  .sheet-head .avatar { width: 46px; height: 46px; font-size: 18px; }
+  .sheet-head h2 { margin: 0; font-size: 17px; font-weight: 800; }
+  .sheet-head .sh-sub { color: var(--muted); font-size: 12px; margin-top: 2px; font-family: ui-monospace, Consolas, monospace; }
+  .sheet-close {
+    margin-left: auto; border: 1px solid var(--line); background: var(--card);
+    border-radius: 10px; width: 34px; height: 34px; font-size: 15px; color: var(--muted);
+  }
+  .sheet-close:hover { color: var(--brand); border-color: var(--brand); }
+  .sheet-body { overflow-y: auto; padding: 18px 22px 40px; flex: 1; }
+  .mini-kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 18px; }
+  .mini-kpi { background: var(--card); border: 1px solid var(--line); border-radius: 13px; padding: 12px 13px; text-align: center; }
+  .mini-kpi b { display: block; font-size: 18px; font-weight: 800; }
+  .mini-kpi span { font-size: 10.5px; color: var(--muted); font-weight: 600; }
+  .sec-title { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 20px 0 9px; }
+  .lrow { display: grid; grid-template-columns: 44px 1fr 84px 74px; gap: 10px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 11px; padding: 9px 13px; margin-bottom: 7px; font-size: 12.5px; }
+  .lrow .lid { font-weight: 800; color: var(--muted); font-size: 11.5px; }
+  .lrow .lmeta { color: var(--muted); font-size: 11.5px; text-align: right; white-space: nowrap; }
+  .ev {
+    display: flex; gap: 11px; align-items: baseline; background: var(--card);
+    border: 1px solid var(--line); border-radius: 11px; padding: 8px 13px; margin-bottom: 6px; font-size: 12.5px;
+  }
+  .ev .ev-ic { font-size: 14px; }
+  .ev .ev-t { color: var(--muted); font-size: 11px; margin-left: auto; white-space: nowrap; }
+  .ev code { background: var(--gray-soft); border-radius: 6px; padding: 1.5px 7px; font-size: 11px; color: #3d4657; }
+
+  /* ============ toast ============ */
+  .toast-host { position: fixed; top: 18px; left: 50%; transform: translateX(-50%); z-index: 200; display: flex; flex-direction: column; gap: 8px; align-items: center; }
+  .toast {
+    background: #20242e; color: #fff; border-radius: 12px; padding: 10px 18px;
+    font-size: 13px; font-weight: 600; box-shadow: 0 8px 26px rgba(10,12,18,.35);
+    opacity: 0; transform: translateY(-6px); transition: all .2s;
+  }
+  .toast.show { opacity: 1; transform: none; }
+  .toast.err { background: var(--brand); }
+
+  .hidden { display: none !important; }
+  .muted { color: var(--muted); }
+  .mono { font-family: ui-monospace, Consolas, monospace; }
+
+  /* ============ responsive ============ */
+  @media (max-width: 900px) {
+    .layout { flex-direction: column; }
+    .sidebar { width: 100%; height: auto; position: static; flex-direction: row; align-items: center; padding: 4px 10px; gap: 6px; overflow-x: auto; }
+    .brand { padding: 10px 8px; }
+    .brand-txt { display: none; }
+    .nav { flex-direction: row; padding: 6px 4px; }
+    .nav button { padding: 9px 12px; white-space: nowrap; }
+    .nav button .ar { display: none; }
+    .nav button.active { box-shadow: inset 0 -3px 0 var(--brand); }
+    .side-foot { display: none; }
+    .content { padding: 18px 14px 50px; }
+    .grid2 { grid-template-columns: 1fr; }
+    .hide-sm { display: none; }
+    .lesson-row { grid-template-columns: 26px 1fr 80px; }
+    .lesson-row .cnt { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <!-- ===================== sidebar ===================== -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">汉</div>
+      <div class="brand-txt">
+        <b>NEW HSK 1</b>
+        <span>Teacher Dashboard · لوحة المعلم</span>
+      </div>
+    </div>
+    <nav class="nav">
+      <button id="nav-overview" class="active" onclick="switchView('overview')">
+        <span class="ic">📊</span><span>Students</span><span class="ar">الطلاب</span>
+      </button>
+      <button id="nav-course" onclick="switchView('course')">
+        <span class="ic">📈</span><span>Course</span><span class="ar">المقرر</span>
+      </button>
+      <button id="nav-add" onclick="switchView('add')">
+        <span class="ic">➕</span><span>Add student</span><span class="ar">إضافة</span>
+      </button>
+    </nav>
+    <div class="side-foot">
+      <div class="site-url-row">
+        <input id="siteUrl" type="text" placeholder="رابط موقع الطلاب (للنسخ)"
+               onchange="saveSiteUrl(this.value)" title="Student site URL — included in copied credentials">
+        <button class="gear" onclick="saveSiteUrl(document.getElementById('siteUrl').value)" title="Save site URL">💾</button>
+      </div>
+      <div class="side-note">
+        Data lives in your Google Sheet<br>البيانات محفوظة في جدول Google الخاص بك
+      </div>
+    </div>
+  </aside>
+
+  <!-- ===================== content ===================== -->
+  <main class="content">
+    <div class="topbar">
+      <div>
+        <h1 id="viewTitle">Students · الطلاب</h1>
+        <div class="sub" id="viewSub">Class overview — click any student for the full report · نظرة عامة — اضغط أي طالب للتقرير الكامل</div>
+      </div>
+      <div class="spacer"></div>
+      <span class="updated" id="updatedLbl"></span>
+      <button class="btn" onclick="refreshAll()">↻ Refresh · تحديث</button>
+    </div>
+
+    <!-- overview -->
+    <section id="view-overview">
+      <div class="kpis" id="kpis"></div>
+      <div class="card" style="padding: 8px 10px;">
+        <div style="overflow-x:auto">
+          <table>
+            <thead><tr>
+              <th>Student · الطالب</th>
+              <th>Course progress · التقدم</th>
+              <th class="hide-sm">Lessons · الدروس</th>
+              <th class="hide-sm">Words · كلمات</th>
+              <th class="hide-sm">Active time · الوقت</th>
+              <th>Last activity · آخر نشاط</th>
+              <th>Status · الحالة</th>
+              <th style="text-align:right">Actions · إجراءات</th>
+            </tr></thead>
+            <tbody id="studentsBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- course -->
+    <section id="view-course" class="hidden">
+      <div class="grid2">
+        <div class="card">
+          <h2>Per-lesson completion · إكمال الدروس</h2>
+          <div class="sub">Green = completed · Blue = started · Grey = nobody yet &nbsp;·&nbsp; أخضر = مكتمل، أزرق = بدأ، رمادي = لم يبدأه أحد</div>
+          <div id="courseBody"></div>
+        </div>
+        <div class="card">
+          <h2>No recent activity · لا نشاط حديث</h2>
+          <div class="sub" id="inactiveSub"></div>
+          <div id="inactiveBody"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- add -->
+    <section id="view-add" class="hidden">
+      <div class="card add-wrap">
+        <h2>Add a student · إضافة طالب</h2>
+        <div class="sub">
+          Creates the row in your <b>Students</b> sheet with an automatic ID + access code.
+          Then send the credentials to the student by hand (the copy button formats them for you).
+          <br>ينشئ صفاً في جدول <b>Students</b> مع معرّف ورمز دخول تلقائي، ثم أرسل البيانات للطالب يدوياً (زر النسخ يجهّزها لك).
+        </div>
+        <label class="field-label" for="newStudentName">
+          Student name <span class="ar">· اسم الطالب (كما سيكتبه عند الدخول)</span>
+        </label>
+        <div class="add-row">
+          <input id="newStudentName" class="input-lg" type="text" placeholder="مثال: أحمد محمد" autocomplete="off">
+          <button class="btn primary" id="addBtn" onclick="addStudent()" style="white-space:nowrap">➕ Add · إضافة</button>
+        </div>
+        <div class="error-txt" id="addError"></div>
+        <div id="addResult" class="hidden">
+          <div class="cred-card">
+            <div class="cc-title">🎓 Student credentials · بيانات دخول الطالب</div>
+            <div class="cred-lines">
+              <div class="cred-line"><span class="cl-label">Name · الاسم</span><b id="resName" dir="auto"></b></div>
+              <div class="cred-line"><span class="cl-label">Access code · الرمز</span><span class="code-big" id="resCode"></span></div>
+              <div class="cred-line"><span class="cl-label">Student ID · المعرّف</span><span class="mono muted" id="resId"></span></div>
+            </div>
+            <button class="btn primary" id="copyResBtn" onclick="copyResCred(this)">📋 Copy to send · انسخ للإرسال</button>
+            <p class="hint" style="margin-top:12px">
+              The student enters the name exactly as written here (letter case and extra spaces
+              don't matter), plus this code.
+              <br>الطالب يدخل الاسم كما هو مكتوب هنا (حالة الأحرف والمسافات الزائدة لا تهم) + هذا الرمز.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card add-wrap">
+        <h2>Prefer the sheet directly? · تفضّل الجدول؟</h2>
+        <div class="hint">
+          Add a row to the <b>Students</b> worksheet with at least <b>StudentName</b> + <b>AccessCode</b>
+          (leave <b>StudentID</b> empty — it is assigned on first sign-in). Set <b>AccountStatus</b> to
+          <code>inactive</code> to disable an account.
+          <br>أضف صفاً في ورقة <b>Students</b> بالاسم ورمز الدخول فقط، واترك المعرّف فارغاً —
+          يُولَّد تلقائياً عند أول تسجيل دخول. ولتعطيل حساب اكتب <code>inactive</code> في حالة الحساب.
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- report slide-over -->
+<div class="overlay" id="overlay" onclick="closeReport()"></div>
+<div class="sheet" id="reportSheet" role="dialog" aria-modal="true">
+  <div class="sheet-head">
+    <div class="avatar" id="repAvatar">؟</div>
+    <div>
+      <h2 id="repName" dir="auto">…</h2>
+      <div class="sh-sub" id="repSub"></div>
+    </div>
+    <button class="sheet-close" onclick="closeReport()" title="Close · إغلاق">✕</button>
+  </div>
+  <div class="sheet-body" id="repBody"></div>
+</div>
+
+<div class="toast-host" id="toastHost"></div>
+
+<script>
+  /* ================= state & helpers ================= */
+  var state = { view: 'overview', students: [], lastUpdated: null, siteUrl: '', lastAdded: null };
+
+  function api(op, payload) {
+    return new Promise(function (resolve, reject) {
+      if (typeof google === 'undefined' || !google.script || !google.script.run) {
+        reject(new Error('google.script.run unavailable — open this page from your deployment link (…/exec?k=…), not as a local file · افتح الصفحة من رابط النشر (?k=…) وليس كملف محلي'));
+        return;
+      }
+      google.script.run
+        .withSuccessHandler(function (res) {
+          if (res && res.ok) resolve(res.data);
+          else reject(new Error((res && res.error && (res.error.code + ': ' + res.error.message)) || 'Request failed'));
+        })
+        .withFailureHandler(function (err) { reject(new Error(String((err && err.message) || err))); })
+        .teacherApi({ op: op, payload: payload || {} });
+    });
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function fmtSeconds(sec) {
+    sec = Math.max(0, Math.round(sec || 0));
+    var h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60);
+    if (h > 0) return h + 'h ' + String(m).padStart(2, '0') + 'm';
+    if (m > 0) return m + 'm';
+    return sec + 's';
+  }
+  function fmtRel(iso) {
+    if (!iso) return '— · لم يبدأ';
+    var t = new Date(iso).getTime();
+    if (isNaN(t)) return '—';
+    var d = Date.now() - t;
+    if (d < 60e3) return 'now · الآن';
+    if (d < 36e5) return Math.floor(d / 6e4) + 'm ago · قبل ' + Math.floor(d / 6e4) + ' د';
+    if (d < 864e5) return Math.floor(d / 36e5) + 'h ago · قبل ' + Math.floor(d / 36e5) + ' س';
+    if (d < 30 * 864e5) return Math.floor(d / 864e5) + 'd ago · قبل ' + Math.floor(d / 864e5) + ' يوم';
+    return new Date(t).toLocaleDateString();
+  }
+  function fmtDate(iso) {
+    if (!iso) return '—';
+    var d = new Date(iso);
+    return isNaN(d.getTime()) ? '—' : d.toLocaleString([], { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+  }
+
+  var AV_COLORS = [
+    ['#e0574a', '#fff'], ['#3867ee', '#fff'], ['#0e9f6e', '#fff'], ['#d97706', '#fff'],
+    ['#8b5cf6', '#fff'], ['#db2777', '#fff'], ['#0891b2', '#fff'], ['#65a30d', '#fff'],
+  ];
+  function avatarStyle(seed) {
+    var h = 0;
+    for (var i = 0; i < String(seed).length; i++) h = (h * 31 + String(seed).charCodeAt(i)) >>> 0;
+    var c = AV_COLORS[h % AV_COLORS.length];
+    return 'background:' + c[0] + ';color:' + c[1];
+  }
+  function initial(name) {
+    var n = String(name || '?').trim();
+    return n ? n.charAt(0) : '؟';
+  }
+
+  var BUCKET = {
+    completed: ['Completed', 'مكتمل'], progressing: ['Progressing', 'يتقدم'],
+    not_started: ['Not started', 'لم يبدأ'], stale: ['No recent activity', 'لا نشاط حديث'],
+    in_progress: ['In progress', 'يتقدم'],
+  };
+  function pill(bucket) {
+    var l = BUCKET[bucket] || [bucket, ''];
+    return '<span class="pill ' + esc(bucket) + '">' + esc(l[0]) + ' · ' + esc(l[1]) + '</span>';
+  }
+
+  var EV_ICONS = {
+    session_started: '🚀', lesson_opened: '📖', vocabulary_viewed: '👀',
+    vocabulary_audio_played: '🔊', sentence_audio_played: '🔊', grammar_section_opened: '📐',
+    conversation_played: '💬', vocabulary_marked_completed: '⭐', vocabulary_marked_uncompleted: '↩️',
+    lesson_completed: '✅', lesson_uncompleted: '↩️', practice_quiz_completed: '🏆',
+  };
+
+  function toast(msg, isErr) {
+    var host = document.getElementById('toastHost');
+    var t = document.createElement('div');
+    t.className = 'toast' + (isErr ? ' err' : '');
+    t.textContent = msg;
+    host.appendChild(t);
+    requestAnimationFrame(function () { t.classList.add('show'); });
+    setTimeout(function () {
+      t.classList.remove('show');
+      setTimeout(function () { t.remove(); }, 250);
+    }, 2600);
+  }
+
+  function copyText(text, btn) {
+    var done = function () {
+      if (btn) {
+        btn.classList.add('copied');
+        var old = btn.textContent;
+        btn.textContent = '✓ Copied · تم النسخ';
+        setTimeout(function () { btn.classList.remove('copied'); btn.textContent = old; }, 1600);
+      }
+      toast('تم نسخ بيانات الدخول · Credentials copied');
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function () { legacyCopy(text, done); });
+    } else legacyCopy(text, done);
+  }
+  function legacyCopy(text, done) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); done(); }
+    catch (e) { toast('Copy failed — انسخ يدوياً', true); }
+    ta.remove();
+  }
+  function credText(stu) {
+    var lines = [
+      '📘 NEW HSK 1 · دورة الصينية',
+      'الاسم / Name: ' + stu.studentName,
+      'رمز الدخول / Access code: ' + (stu.accessCode || '(see Students sheet)'),
+    ];
+    if (state.siteUrl) lines.push('الموقع / Site: ' + state.siteUrl);
+    lines.push('افتح الموقع وأدخل الاسم والرمز للبدء · Open the site and sign in with these.');
+    return lines.join('\n');
+  }
+  function copyCred(id, btn) {
+    var stu = state.students.find(function (s) { return s.studentId === id; });
+    if (stu) copyText(credText(stu), btn);
+  }
+  function copyResCred(btn) {
+    if (state.lastAdded) copyText(credText(state.lastAdded), btn);
+  }
+
+  /* ================= views ================= */
+  function switchView(v) {
+    state.view = v;
+    ['overview', 'course', 'add'].forEach(function (x) {
+      document.getElementById('view-' + x).classList.toggle('hidden', x !== v);
+      document.getElementById('nav-' + x).classList.toggle('active', x === v);
+    });
+    var titles = {
+      overview: ['Students · الطلاب', 'Class overview — click any student for the full report · نظرة عامة — اضغط أي طالب للتقرير الكامل'],
+      course: ['Course · المقرر', 'Completion per lesson + inactivity flags · الإكمال لكل درس + تنبيهات الخمول'],
+      add: ['Add student · إضافة طالب', 'Create credentials and send them to the student · أنشئ البيانات وأرسلها للطالب'],
+    };
+    document.getElementById('viewTitle').textContent = titles[v][0];
+    document.getElementById('viewSub').textContent = titles[v][1];
+    if (v === 'course') loadCourse();
+    if (v === 'add') setTimeout(function () { document.getElementById('newStudentName').focus(); }, 60);
+  }
+
+  function skeleton(cols) {
+    var rows = '';
+    for (var i = 0; i < 5; i++) {
+      var tds = '';
+      for (var c = 0; c < cols; c++) tds += '<td><div class="sk" style="width:' + (55 + ((i * 7 + c * 13) % 40)) + '%"></div></td>';
+      rows += '<tr class="skeleton">' + tds + '</tr>';
+    }
+    return rows;
+  }
+
+  function refreshAll() { loadStudents(); if (state.view === 'course') loadCourse(); }
+
+  function loadStudents() {
+    var body = document.getElementById('studentsBody');
+    body.innerHTML = skeleton(8);
+    api('teacherListStudents').then(function (data) {
+      state.students = data.students;
+      state.lastUpdated = new Date();
+      document.getElementById('updatedLbl').textContent =
+        'Updated ' + state.lastUpdated.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + ' · حُدّث';
+      renderKpis(data.students, data.totalLessons);
+      if (!data.students.length) {
+        body.innerHTML = '<tr><td colspan="8" class="t-empty">No students yet — add your first student from the “Add student” tab, or create rows in the Students sheet.<br>لا يوجد طلاب بعد — أضف أول طالب من تبويب «إضافة طالب» أو أنشئ صفوفاً في جدول Students.</td></tr>';
+        return;
+      }
+      body.innerHTML = data.students.map(function (s) {
+        return '<tr class="clickable" onclick="openReport(\'' + esc(s.studentId) + '\')">' +
+          '<td><div class="stu">' +
+            '<div class="avatar" style="' + avatarStyle(s.studentId) + '">' + esc(initial(s.studentName)) + '</div>' +
+            '<div class="stu-txt"><div class="stu-name" dir="auto">' + esc(s.studentName) + '</div>' +
+            '<div class="stu-id">' + esc(s.studentId) + '</div></div>' +
+          '</div></td>' +
+          '<td><div class="prog"><div class="bar"><i style="width:' + Math.min(100, s.completionPercentage) + '%"></i></div>' +
+            '<span class="pct">' + s.completionPercentage + '%</span></div></td>' +
+          '<td class="hide-sm">' + s.lessonsCompleted + ' / ' + s.totalLessons + '</td>' +
+          '<td class="hide-sm">' + s.vocabularyCompleted + '</td>' +
+          '<td class="hide-sm">' + fmtSeconds(s.totalActiveSeconds) + '</td>' +
+          '<td title="' + esc(s.lastActivityAt || '') + '">' + fmtRel(s.lastActivityAt) + '</td>' +
+          '<td>' + pill(s.bucket) + '</td>' +
+          '<td><div class="acts" onclick="event.stopPropagation()">' +
+            '<button class="icon-act" onclick="openReport(\'' + esc(s.studentId) + '\')" title="Full report · التقرير الكامل">👁</button>' +
+            '<button class="icon-act" onclick="copyCred(\'' + esc(s.studentId) + '\', this)" title="Copy credentials · نسخ بيانات الدخول">📋</button>' +
+          '</div></td>' +
+        '</tr>';
+      }).join('');
+    }).catch(function (err) {
+      body.innerHTML = '<tr><td colspan="8" class="t-empty" style="color:var(--brand)">' + esc(err.message) + '</td></tr>';
+    });
+  }
+
+  function renderKpis(students, totalLessons) {
+    var completed = students.filter(function (s) { return s.bucket === 'completed'; }).length;
+    var progressing = students.filter(function (s) { return s.bucket === 'progressing'; }).length;
+    var notStarted = students.filter(function (s) { return s.bucket === 'not_started'; }).length;
+    var stale = students.filter(function (s) { return s.bucket === 'stale'; }).length;
+    var avg = students.length
+      ? Math.round(students.reduce(function (a, s) { return a + s.completionPercentage; }, 0) / students.length)
+      : 0;
+    var k = [
+      ['👥', students.length, 'Students', 'طلاب', 'var(--ink)'],
+      ['✅', completed, 'Completed course', 'أنهوا المقرر', 'var(--green)'],
+      ['📈', progressing, 'Progressing', 'يتقدمون', 'var(--blue)'],
+      ['🌱', notStarted, 'Not started', 'لم يبدأوا', 'var(--muted)'],
+      ['⏰', stale, 'No recent activity', 'لا نشاط حديث', 'var(--orange)'],
+      ['🎯', avg + '%', 'Class average', 'متوسط الفصل', 'var(--brand)'],
+    ];
+    document.getElementById('kpis').innerHTML = k.map(function (c) {
+      return '<div class="kpi" style="--kc:' + c[4] + '"><span class="k-ic">' + c[0] + '</span><b>' + c[1] + '</b>' +
+        '<span class="k-label">' + c[2] + ' <span class="ar">· ' + c[3] + '</span></span></div>';
+    }).join('');
+  }
+
+  function loadCourse() {
+    document.getElementById('courseBody').innerHTML = skeleton(4);
+    api('teacherCourseOverview').then(function (data) {
+      var n = Math.max(1, data.perLesson.length ? data.perLesson[0].totalStudents : 1);
+      document.getElementById('courseBody').innerHTML = data.perLesson.map(function (l) {
+        var donePct = Math.round((l.completed / n) * 100);
+        var startPct = Math.round(((l.started - l.completed) / n) * 100);
+        return '<div class="lesson-row">' +
+          '<span class="ln">L' + String(l.order).padStart(2, '0') + '</span>' +
+          '<span class="lt"><b>' + esc(l.titleEn) + '</b><span lang="zh">' + esc(l.titleZh) + '</span></span>' +
+          '<span class="stack" title="completed ' + l.completed + ' · started ' + l.started + ' of ' + l.totalStudents + '">' +
+            '<i class="s-done" style="width:' + donePct + '%"></i><i class="s-started" style="width:' + startPct + '%"></i></span>' +
+          '<span class="cnt"><b>' + l.completed + '</b>✓ / <b>' + l.started + '</b>▶ · ' + l.totalStudents + '</span>' +
+        '</div>';
+      }).join('');
+      var inact = data.inactiveStudents;
+      document.getElementById('inactiveSub').textContent =
+        'No activity for ' + data.staleAfterDays + '+ days — observational flag only, not a judgment of attention · لا نشاط منذ ' + data.staleAfterDays + '+ يوماً (ملاحظة وصفية فقط)';
+      document.getElementById('inactiveBody').innerHTML = inact.length
+        ? inact.map(function (s) {
+            return '<div class="lrow" style="grid-template-columns:1fr auto">' +
+              '<span><div class="stu-name" dir="auto" style="font-size:13px">' + esc(s.studentName) + '</div>' +
+              '<span class="muted" style="font-size:11px">' + fmtRel(s.lastActivityAt) + '</span></span>' +
+              '<span>' + (s.daysInactive === null ? '<span class="pill not_started">never · أبداً</span>' : '<span class="pill stale">' + s.daysInactive + 'd · يوم</span>') + '</span>' +
+            '</div>';
+          }).join('')
+        : '<div class="t-empty">Everyone is active 🎉 · الجميع نشط</div>';
+    }).catch(function (err) {
+      document.getElementById('courseBody').innerHTML = '<div class="t-empty" style="color:var(--brand)">' + esc(err.message) + '</div>';
+    });
+  }
+
+  /* ================= report slide-over ================= */
+  function openReport(studentId) {
+    var stu = state.students.find(function (s) { return s.studentId === studentId; });
+    var av = document.getElementById('repAvatar');
+    av.textContent = initial(stu ? stu.studentName : '?');
+    av.setAttribute('style', avatarStyle(studentId));
+    document.getElementById('repName').textContent = stu ? stu.studentName : studentId;
+    document.getElementById('repSub').textContent = studentId + (stu && stu.enrollmentDate ? ' · enrolled ' + stu.enrollmentDate : '');
+    document.getElementById('overlay').classList.add('show');
+    document.getElementById('reportSheet').classList.add('show');
+    var bodyEl = document.getElementById('repBody');
+    bodyEl.innerHTML = '<div class="sec-title">Loading… · جارٍ التحميل</div>' + skeleton(3);
+    api('teacherStudentReport', { studentId: studentId }).then(function (r) {
+      var completed = r.lessons.filter(function (l) { return l.status === 'completed'; }).length;
+      var seconds = r.lessons.reduce(function (a, l) { return a + (l.activeLearningSeconds || 0); }, 0);
+      var words = r.lessons.reduce(function (a, l) { return a + (l.completedVocabularyCount || 0); }, 0);
+      var totalWords = r.lessons.reduce(function (a, l) { return a + (l.totalVocabularyCount || 0); }, 0);
+      var pct = Math.round((completed / Math.max(1, r.lessons.length)) * 100);
+      var html =
+        '<div class="mini-kpis">' +
+          '<div class="mini-kpi"><b>' + completed + '/' + r.lessons.length + '</b><span>Lessons · دروس</span></div>' +
+          '<div class="mini-kpi"><b>' + pct + '%</b><span>Course · المقرر</span></div>' +
+          '<div class="mini-kpi"><b>' + words + '</b><span>Words · كلمات</span></div>' +
+          '<div class="mini-kpi"><b>' + fmtSeconds(seconds) + '</b><span>Time · وقت</span></div>' +
+        '</div>';
+      html += '<div class="sec-title">Lessons · الدروس (' + words + '/' + totalWords + ' words mastered)</div>';
+      html += r.lessons.map(function (l) {
+        var wpct = l.totalVocabularyCount ? Math.round((l.completedVocabularyCount / l.totalVocabularyCount) * 100) : 0;
+        var barPct = l.status === 'completed' ? 100 : wpct;
+        return '<div class="lrow">' +
+          '<span class="lid">L' + l.lessonId.slice(-2) + '</span>' +
+          '<span class="prog"><span class="bar"><i style="width:' + barPct + '%"></i></span></span>' +
+          '<span class="lmeta">⏱ ' + fmtSeconds(l.activeLearningSeconds) + '</span>' +
+          '<span>' + pill(l.status === 'completed' ? 'completed' : (l.status === 'in_progress' ? 'in_progress' : 'not_started')) + '</span>' +
+        '</div>';
+      }).join('');
+      if (r.quiz.length) {
+        html += '<div class="sec-title">Quiz bests · أفضل الاختبارات</div>';
+        html += r.quiz.map(function (q) {
+          return '<div class="lrow" style="grid-template-columns:44px 1fr auto">' +
+            '<span class="lid">L' + q.lessonId.slice(-2) + '</span>' +
+            '<span>🏆 ' + q.bestCorrect + ' / ' + q.total + '</span>' +
+            '<span class="lmeta">' + q.attempts + ' attempts · ' + fmtRel(q.lastAt) + '</span>' +
+          '</div>';
+        }).join('');
+      }
+      html += '<div class="sec-title">Recent activity · آخر النشاط (' + r.recentEvents.length + ')</div>';
+      html += r.recentEvents.length
+        ? r.recentEvents.map(function (e) {
+            return '<div class="ev"><span class="ev-ic">' + (EV_ICONS[e.eventType] || '•') + '</span>' +
+              '<code>' + esc(e.eventType) + '</code>' +
+              (e.lessonId ? '<span class="muted" style="font-size:11px">' + esc(e.lessonId.replace('hsk1-', 'L').toUpperCase()) + (e.vocabularyId ? ' · ' + esc(e.vocabularyId.slice(-6)) : '') + '</span>' : '') +
+              '<span class="ev-t" title="' + esc(e.timestamp) + '">' + fmtRel(e.timestamp) + '</span>' +
+            '</div>';
+          }).join('')
+        : '<div class="t-empty">No events yet · لا أحداث بعد</div>';
+      bodyEl.innerHTML = html;
+    }).catch(function (err) {
+      bodyEl.innerHTML = '<div class="t-empty" style="color:var(--brand)">' + esc(err.message) + '</div>';
+    });
+  }
+  function closeReport() {
+    document.getElementById('overlay').classList.remove('show');
+    document.getElementById('reportSheet').classList.remove('show');
+  }
+
+  /* ================= add student ================= */
+  function addStudent() {
+    var input = document.getElementById('newStudentName');
+    var name = input.value.trim();
+    var errEl = document.getElementById('addError');
+    var btn = document.getElementById('addBtn');
+    errEl.textContent = '';
+    document.getElementById('addResult').classList.add('hidden');
+    if (!name) { errEl.textContent = 'Enter the student name · أدخل اسم الطالب'; input.focus(); return; }
+    btn.disabled = true;
+    api('teacherAddStudent', { name: name }).then(function (res) {
+      btn.disabled = false;
+      input.value = '';
+      state.lastAdded = { studentName: res.studentName, accessCode: res.accessCode };
+      document.getElementById('resName').textContent = res.studentName;
+      document.getElementById('resCode').textContent = res.accessCode;
+      document.getElementById('resId').textContent = res.studentId;
+      document.getElementById('addResult').classList.remove('hidden');
+      toast('تمت إضافة ' + res.studentName + ' · Student added');
+      loadStudents();
+    }).catch(function (err) {
+      btn.disabled = false;
+      errEl.textContent = err.message;
+    });
+  }
+
+  /* ================= site url (for copied credentials) ================= */
+  function loadSiteUrl() {
+    try { state.siteUrl = localStorage.getItem('hsk1.dash.siteurl') || ''; } catch (e) { state.siteUrl = ''; }
+    document.getElementById('siteUrl').value = state.siteUrl;
+  }
+  function saveSiteUrl(v) {
+    state.siteUrl = String(v || '').trim();
+    try { localStorage.setItem('hsk1.dash.siteurl', state.siteUrl); } catch (e) {}
+    document.getElementById('siteUrl').value = state.siteUrl;
+    toast('حُفظ رابط الموقع · Site URL saved');
+  }
+
+  /* ================= boot ================= */
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeReport();
+    if (e.key === 'Enter' && state.view === 'add' &&
+        document.activeElement === document.getElementById('newStudentName')) addStudent();
+  });
+  loadSiteUrl();
+
+  /*
+   * Apps Script injects its client loader (google.script.run) AFTER this
+   * inline script parses, so calling it at parse time races and throws
+   * "google is not defined". Poll until the bridge exists (the old dashboard
+   * avoided this only because its first call waited for a user click).
+   * If it never appears, the page was opened outside a deployment (e.g. a
+   * local file) — say so plainly instead of a cryptic error.
+   */
+  (function waitGoogle(tries) {
+    if (typeof google !== 'undefined' && google.script && google.script.run) {
+      refreshAll();
+      return;
+    }
+    if (tries > 60) { // ~6 s
+      document.getElementById('studentsBody').innerHTML =
+        '<tr><td colspan="8" class="t-empty">' +
+        'This page must be opened from your Apps Script deployment link (…/exec?k=…), not as a local file.' +
+        '<br>افتح هذه الصفحة من رابط النشر الخاص بك (?k=…) في المتصفح — وليس كملف من جهازك.</td></tr>';
+      return;
+    }
+    setTimeout(function () { waitGoogle(tries + 1); }, 100);
+  })(0);
+</script>
+</body>
+</html>
